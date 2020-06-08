@@ -27,6 +27,8 @@ knitr::opts_chunk$set(
  size="small", # set code chunk size
  knitr::opts_chunk$set(fig.pos = 'H')
 )
+
+# rmarkdown::render_site() # render entire site
 ```
 
 # Chinese class from Unipus MOOC  

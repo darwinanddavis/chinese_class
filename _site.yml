@@ -5,26 +5,20 @@ navbar:
     - text: "Home"
       href: index.html  
     - text: "Lesson 2"
-      href: lesson2/lesson2.html
+      href: lesson2.html
   right:
     - icon: fa-github
       href: https://github.com/darwinanddavis/chinese_class
 output_dir: 'docs'
 output:
   html_document:
-    theme: cosmo   
-    highlight: zenburn # tango pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, and textmate.  
+    theme: cosmo
+    highlight: kate
+    code_folding: show
+    code_download: false
     toc: yes
     toc_depth: 3
     toc_float: yes
     number_sections: no  
     self_contained: false
-pdf_document: # pdf options
-    highlight: tango
-    toc: yes
-    toc_depth: 4
-word_document:
-    highlight: tango
-    keep_md: yes
-    pandoc_args: --smart
-    toc: yes
+
