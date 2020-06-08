@@ -40,12 +40,6 @@ knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
 setwd(paste0(params$dir,"/")) # for running just in R not knitr
 ```
 
-\newpage   
-
-Date: `r params$date`  
-*Corresponding author: `r params$email`  
-\  
-
 # `r paste0(params$lesson,": ",params$title)`    
 \  
 
@@ -72,7 +66,7 @@ He can't walk
 He can walk  
 
 ### 会    
-- expresses grasp of skil from learning    
+- expresses grasp of skill from learning    
 - expresses possibility    
 
 今天不会下雨  
@@ -82,17 +76,81 @@ Today it won't rain
 - expresses permission  
 
 我可以用一下你的自行车吗？   
-Can i use your bike?  
+Can I use your bike?  
 
-Pose a question with auxiliary verbs by
-- using the positive and negative form  
-- using 吗
+Pose a question with auxiliary verbs by  
+- using the positive and negative form     
+- using 吗     
+
+你能不能来？ / 你能来吗？   
+*能 / 不能*       
+  
+你会不会开车？ / 你会开车吗？   
+*会 / 不会*   
+  
+我可以不可以进去 / 我可以进去吗？      
+*可以 / 不行*  
+
+Note  
+- use 不行 not 不可以 when answering 可以 questions with 吗      
+- only use 不可以 when making a command or being very serious， e.g. 考试的时候不可以看手机   
+
+Examples  
+
+大卫会游泳， 阿妮不会游泳    
+大卫不会来了  
+他不能写字  
+他们不能去爬山了  
+老师，你可以回宿舍休息吗？ 
+
+## Quiz 
+
+1.  
+下个星期我有考试，不___去旅游了。   
+能
+
+2.  
+我___用一下儿你的笔吗？ 
+我(Wǒ)___用(yòng)一(yī)下(xià)儿(er)你(nǐ)的(de)笔(bǐ)吗(ma)？  
+可以   
+
+3.  
+大(Dà)卫(wèi)没(méi)学(xué)过(guò)汉(hàn)语(yǔ)，他(Tā)不(bù)___写(xiě)汉(hàn)字(zì)。  
+会  
+
+4.  
+今(Jīn)天(tiān)是(shì)周(zhōu)末(mò)，我(Wǒ)____晚(wǎn)一(yì)点(diǎn)儿(er)起(qǐ)床(chuáng)。  
+可以  
+
+5.
+安(ān)妮(nī)，你(Nǐ)____骑(qí)自(zì)行(xíng)车(chē)吗(ma)？  
+会   
 
 
-我可以不可以进去 / 我可以进去吗？  
+用“能、会、可以”完成句子。  
+ 
+6.   
+我(Wǒ)明(míng)天(tiān)考(kǎo)试(shì)，(1)。（看(kàn)电(diàn)影(yǐng)）
+不能去看电影了    
+
+7.  
+老(Lǎo)师(shī)，我(Wǒ)不(bù)舒(shū)服(fu)，(1)？（回(huí)宿(sù)舍(shè)）  
+可以回宿舍吗  
+
+8.  
+我(Wǒ)没(méi)学(xué)过(guò)法(fǎ)语(yǔ)，(1)。（说(shuō)法(fǎ)语(yǔ)）  
+不会说法语   
+
+9.  
+大(Dà)卫(wèi)最(zuì)近(jìn)很(hěn)忙(máng)，(1)？（参(cān)加(jiā)晚(wǎn)会(huì)）    
+能参加晚会吗   
+
+10.  
+考(Kǎo)试(shì)的(de)时(shí)候(hòu)(1)。（看(kàn)手(shǒu)机(jī)） 
+不可以看手机     
 
 
-
+ 
 
 
 

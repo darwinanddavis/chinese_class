@@ -7,6 +7,8 @@ output:
 params: 
   lesson: "Index"
   title: "Chinese MOOC from Unipus" 
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com 
 ---
 
 <!-- ---------------------------------------------------------------- -->
@@ -34,7 +36,11 @@ knitr::opts_chunk$set(
 # Chinese class from Unipus MOOC  
 [Advanced Chinese Grammar-Primary](https://moocs.unipus.cn/my/course/373)    
 
+\newpage   
 
+Date: `r params$date`  
+*Corresponding author: `r params$email`  
+\  
 
 
 
