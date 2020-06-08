@@ -1,0 +1,40 @@
+---
+Title: "Chinese class"    
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+params: 
+  lesson: "Index"
+  title: "Chinese MOOC from Unipus" 
+---
+
+<!-- ---------------------------------------------------------------- -->
+<!-- ----------------------- rmd settings --------------------------- -->
+<!-- ---------------------------------------------------------------- -->
+
+<!-- rmd settings -->
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small", # set code chunk size
+ knitr::opts_chunk$set(fig.pos = 'H')
+)
+```
+
+# Chinese class from Unipus MOOC  
+[Advanced Chinese Grammar-Primary](https://moocs.unipus.cn/my/course/373)    
+
+
+
+
+
+
+  
