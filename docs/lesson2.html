@@ -23,9 +23,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -234,9 +231,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -342,28 +336,21 @@ div.tocify {
 <li>
   <a href="lesson2.html">Lesson 2</a>
 </li>
+<li>
+  <a href="lesson3.html">Lesson 3</a>
+</li>
+<li>
+  <a href="lesson4.html">Lesson 4</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/darwinanddavis/chinese_class">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
+        <li class="dropdown-header">Matt Malishev</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 
 <div class="fluid-row" id="header">
-
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
 
@@ -398,7 +385,7 @@ div.tocify {
 <li>expresses possibility due to circumstance</li>
 </ul>
 <p>他不能走路<br />
-He can’t walk<br />
+He can't walk<br />
 他能走路<br />
 He can walk</p>
 <p> </p>
@@ -412,7 +399,7 @@ He can walk</p>
 <li>expresses possibility</li>
 </ul>
 <p>今天不会下雨<br />
-Today it won’t rain</p>
+Today it won't rain</p>
 <p> </p>
 <hr />
 </div>
@@ -434,7 +421,7 @@ Can I use your bike?</p>
 <em>可以 / 不行</em></p>
 <p>Note<br />
 - use 不行 not 不可以 when answering 可以 questions with 吗<br />
-- only use 不可以 when making a command or being very serious， e.g. 考试的时候不可以看手机</p>
+- only use 不可以 when making a command or being very serious， e.g. 考试的时候不可以看手机</p>
 <p> </p>
 <hr />
 </div>
@@ -514,11 +501,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 <script>
 $(document).ready(function ()  {
@@ -534,7 +516,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

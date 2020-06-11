@@ -25,8 +25,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script src="site_libs/navigation-1.1/codefolding.js"></script>
 <script src="site_libs/navigation-1.1/sourceembed.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -346,14 +344,15 @@ div.tocify {
 <li>
   <a href="lesson2.html">Lesson 2</a>
 </li>
+<li>
+  <a href="lesson3.html">Lesson 3</a>
+</li>
+<li>
+  <a href="lesson4.html">Lesson 4</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/darwinanddavis/chinese_class">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
+        <li class="dropdown-header">Matt Malishev</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -383,7 +382,7 @@ div.tocify {
   MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
 </script>
 
-<p>Date: 2020-06-08<br />
+<p>Date: 2020-06-11<br />
 R version: 3.5.0<br />
 *Corresponding author: <a href="mailto:matthew.malishev@gmail.com">matthew.malishev@gmail.com</a><br />
 This document can be found at <a href="https://moocs.unipus.cn/my/course/373" class="uri">https://moocs.unipus.cn/my/course/373</a></p>
@@ -404,21 +403,16 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] dplyr_0.8.5     prettydoc_0.3.1 pacman_0.5.1   
+[1] dplyr_1.0.0
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.4           pillar_1.4.3         compiler_3.5.0       base64enc_0.1-3     
- [5] remotes_2.1.1        prettyunits_1.0.2    tools_3.5.0          testthat_2.3.2      
- [9] digest_0.6.25        pkgbuild_1.0.7       pkgload_1.0.2        evaluate_0.14       
-[13] memoise_1.1.0        tibble_2.1.3         pkgconfig_2.0.3      rlang_0.4.5         
-[17] cli_2.0.2            rstudioapi_0.11      yaml_2.2.0           xfun_0.11           
-[21] stringr_1.4.0        withr_2.1.2          knitr_1.26           fs_1.3.2            
-[25] desc_1.2.0           devtools_2.3.0       rprojroot_1.3-2      tidyselect_0.2.5    
-[29] glue_1.3.1           R6_2.4.1             processx_3.4.1       fansi_0.4.0         
-[33] rmarkdown_2.1        sessioninfo_1.1.1    purrr_0.3.3          callr_3.4.3         
-[37] magrittr_1.5         usethis_1.6.0        backports_1.1.5      ps_1.3.0            
-[41] htmltools_0.4.0.9003 ellipsis_0.3.0       rsconnect_0.8.16     assertthat_0.2.1    
-[45] tinytex_0.19         stringi_1.4.3        crayon_1.3.4        </code></pre>
+ [1] crayon_1.3.4         digest_0.6.25        R6_2.4.1             lifecycle_0.2.0     
+ [5] magrittr_1.5         evaluate_0.14        pillar_1.4.4         stringi_1.4.6       
+ [9] rlang_0.4.6          rstudioapi_0.11      ellipsis_0.3.1       vctrs_0.3.1         
+[13] generics_0.0.2       rmarkdown_2.2        tools_3.5.0          stringr_1.4.0       
+[17] glue_1.4.1           purrr_0.3.4          xfun_0.14            yaml_2.2.1          
+[21] rsconnect_0.8.16     compiler_3.5.0       base64enc_0.1-3      pkgconfig_2.0.3     
+[25] htmltools_0.4.0.9003 tidyselect_1.1.0     knitr_1.28           tibble_3.0.1        </code></pre>
 
 <div id="lesson-1" class="section level1">
 <h1>Lesson 1</h1>
@@ -437,7 +431,7 @@ loaded via a namespace (and not attached):
 <li>expresses possibility due to circumstance</li>
 </ul>
 <p>他不能走路<br />
-He can’t walk<br />
+He can't walk<br />
 他能走路<br />
 He can walk</p>
 </div>
@@ -449,7 +443,7 @@ He can walk</p>
 <li>expresses possibility</li>
 </ul>
 <p>今天不会下雨<br />
-Today it won’t rain</p>
+Today it won't rain</p>
 </div>
 <div id="可以" class="section level3">
 <h3>可以</h3>
@@ -522,7 +516,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

@@ -2,8 +2,6 @@
 Title: "Chinese class"    
 header-includes: \usepackage{float}
 always_allow_html: yes
-output:
-  html_document 
 params: 
   lesson: "Index"
   title: "Chinese MOOC from Unipus" 

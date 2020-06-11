@@ -23,8 +23,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -338,14 +336,15 @@ div.tocify {
 <li>
   <a href="lesson2.html">Lesson 2</a>
 </li>
+<li>
+  <a href="lesson3.html">Lesson 3</a>
+</li>
+<li>
+  <a href="lesson4.html">Lesson 4</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/darwinanddavis/chinese_class">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
+        <li class="dropdown-header">Matt Malishev</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -367,7 +366,7 @@ div.tocify {
 <h1>Chinese class from Unipus MOOC</h1>
 <p><a href="https://moocs.unipus.cn/my/course/373">Advanced Chinese Grammar-Primary</a></p>
 
-<p>Date: 2020-06-08<br />
+<p>Date: 2020-06-11<br />
 *Corresponding author: <a href="mailto:matthew.malishev@gmail.com">matthew.malishev@gmail.com</a><br />
  </p>
 </div>
@@ -422,7 +421,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

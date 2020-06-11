@@ -69,7 +69,7 @@ vignette: >
 
 \newpage   
 
-Date: 2020-06-08  
+Date: 2020-06-11  
 R version: 3.5.0   
 *Corresponding author: matthew.malishev@gmail.com  
 This document can be found at https://moocs.unipus.cn/my/course/373  
@@ -95,21 +95,17 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] dplyr_0.8.5     prettydoc_0.3.1 pacman_0.5.1   
+[1] dplyr_1.0.0
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.4           pillar_1.4.3         compiler_3.5.0       base64enc_0.1-3     
- [5] remotes_2.1.1        prettyunits_1.0.2    tools_3.5.0          testthat_2.3.2      
- [9] digest_0.6.25        pkgbuild_1.0.7       pkgload_1.0.2        evaluate_0.14       
-[13] memoise_1.1.0        tibble_2.1.3         pkgconfig_2.0.3      rlang_0.4.5         
-[17] cli_2.0.2            rstudioapi_0.11      yaml_2.2.0           xfun_0.11           
-[21] stringr_1.4.0        withr_2.1.2          knitr_1.26           fs_1.3.2            
-[25] desc_1.2.0           devtools_2.3.0       rprojroot_1.3-2      tidyselect_0.2.5    
-[29] glue_1.3.1           R6_2.4.1             processx_3.4.1       fansi_0.4.0         
-[33] rmarkdown_2.1        sessioninfo_1.1.1    purrr_0.3.3          callr_3.4.3         
-[37] magrittr_1.5         usethis_1.6.0        backports_1.1.5      ps_1.3.0            
-[41] htmltools_0.4.0.9003 ellipsis_0.3.0       rsconnect_0.8.16     assertthat_0.2.1    
-[45] tinytex_0.19         stringi_1.4.3        crayon_1.3.4        
+ [1] rstudioapi_0.11      knitr_1.28           magrittr_1.5         tidyselect_1.1.0    
+ [5] R6_2.4.1             rlang_0.4.6          stringr_1.4.0        tools_3.5.0         
+ [9] xfun_0.14            tinytex_0.23         htmltools_0.4.0.9003 ellipsis_0.3.1      
+[13] yaml_2.2.1           digest_0.6.25        tibble_3.0.1         lifecycle_0.2.0     
+[17] crayon_1.3.4         purrr_0.3.4          base64enc_0.1-3      vctrs_0.3.1         
+[21] rsconnect_0.8.16     glue_1.4.1           evaluate_0.14        rmarkdown_2.2       
+[25] stringi_1.4.6        compiler_3.5.0       pillar_1.4.4         generics_0.0.2      
+[29] pkgconfig_2.0.3     
 ```
 
 \newpage  

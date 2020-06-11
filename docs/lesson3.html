@@ -23,9 +23,6 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
 
@@ -234,9 +231,6 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -342,28 +336,21 @@ div.tocify {
 <li>
   <a href="lesson2.html">Lesson 2</a>
 </li>
+<li>
+  <a href="lesson3.html">Lesson 3</a>
+</li>
+<li>
+  <a href="lesson4.html">Lesson 4</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/darwinanddavis/chinese_class">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
+        <li class="dropdown-header">Matt Malishev</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 
 <div class="fluid-row" id="header">
-
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
 
@@ -418,11 +405,11 @@ div.tocify {
 七八 八九</p>
 <p>Exceptions<br />
 一两 and 两三 are used before measure words， eg. 一两个小时 or 两三本书</p>
-<p>零|一，九|十，and 十|十一 can’t be used in succession, eg.<br />
+<p>零|一，九|十，and 十|十一 can't be used in succession, eg.<br />
 我去图书馆借几本书<br />
-I’m going to the library to borrow a few books</p>
+I'm going to the library to borrow a few books</p>
 <p>我在北京住了十几年了， 是半个北京人了<br />
-I’ve lived in Beijing for more than ten years, I’m half a Beijing person</p>
+I've lived in Beijing for more than ten years, I'm half a Beijing person</p>
 <p>这些鞋都五折，几百块一双<br />
 These shoes are 50% off, there are hundreds of pairs</p>
 <p> </p>
@@ -490,7 +477,22 @@ when using multiple numbers (&gt;1 integer), 多 goes before the measure word or
 他今年四岁多了。</p></li>
 <li><p>你有几个中国朋友？<br />
 我有一两个中国朋友。</p></li>
-<li><p>这些东西有多重？</p></li>
+<li><p>这些东西有多重？<br />
+这些东西有二十几斤。</p></li>
+<li><p>去上海的机票多少钱？<br />
+五百来块钱。</p></li>
+<li><p>他有多高？<br />
+他一米八多。</p></li>
+<li><p>她奶奶多大年纪了？<br />
+她奶奶八十一二了。</p></li>
+<li><p>一百美元换多少人民币？<br />
+一百美元换七百来块人民币。</p></li>
+<li><p>你来中国多长时间了？<br />
+我来中国两年多了。</p></li>
+<li><p>你每天几点睡觉？<br />
+我每天十二点多睡觉。</p></li>
+<li><p>你每天看多长时间的电视？<br />
+我每天看两个来小时电视。</p></li>
 </ol>
 </div>
 </div>
@@ -530,11 +532,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
 <script>
 $(document).ready(function ()  {
@@ -550,7 +547,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

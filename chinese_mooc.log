@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.3.3)  8 JUN 2020 16:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.10)  11 JUN 2020 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **chinese_mooc.tex
 (./chinese_mooc.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-02-25> (/Users/malishev/Library/TinyTeX/texmf-dist/t
+L3 programming layer <2020-06-03> (/Users/malishev/Library/TinyTeX/texmf-dist/t
 ex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
@@ -122,7 +122,7 @@ LaTeX Info: Redefining \] on input line 2860.
 ) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
@@ -143,22 +143,25 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 ) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.
 sty (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-02-25 L3 programming layer (loader) 
+Package: expl3 2020-06-03 L3 programming layer (loader) 
 
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xdvip
 dfmx.def
-File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
+File: l3backend-xdvipdfmx.def 2020-06-03 L3 backend support: xdvipdfmx
 \g__graphics_track_int=\count184
 \l__pdf_internal_box=\box47
 \g__pdf_backend_object_int=\count185
 \g__pdf_backend_annotation_int=\count186
 ))
-Package: xparse 2020-02-25 L3 Experimental document command parser
+Package: xparse 2020-05-15 L3 Experimental document command parser
+
+(/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-
+generic.tex
 \l__xparse_current_arg_int=\count187
 \g__xparse_grabber_int=\count188
 \l__xparse_m_args_int=\count189
 \l__xparse_v_nesting_int=\count190
-)
+))
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.s
@@ -201,12 +204,12 @@ tim
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2020-06-04 v0.32 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -240,30 +243,30 @@ Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 \Hy@linkcounter=\count272
 \Hy@pagecounter=\count273
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 ) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count274
-Package hyperref Info: Option `unicode' set `true' on input line 4421.
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4547.
-Package hyperref Info: Link nesting OFF on input line 4552.
-Package hyperref Info: Hyper index ON on input line 4555.
-Package hyperref Info: Plain pages OFF on input line 4562.
-Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4800.
+Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count275
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5159.
+LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen148
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -276,15 +279,15 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 \Fld@menulength=\count276
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6430.
-Package hyperref Info: Link nesting OFF on input line 6435.
-Package hyperref Info: Hyper index ON on input line 6438.
-Package hyperref Info: backreferencing OFF on input line 6445.
-Package hyperref Info: Link coloring OFF on input line 6450.
-Package hyperref Info: Link coloring with OCG OFF on input line 6455.
-Package hyperref Info: PDF/A mode OFF on input line 6460.
-LaTeX Info: Redefining \ref on input line 6500.
-LaTeX Info: Redefining \pageref on input line 6504.
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
@@ -294,7 +297,7 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2020/01/14 v7.00d Hyperref driver for XeTeX
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
 
 (/Users/malishev/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
@@ -497,7 +500,7 @@ Missing character: There is no 以 in font [lmroman10-regular]:mapping=tex-text;
 [1
 
 ]
-Overfull \hbox (144.49498pt too wide) in paragraph at lines 118--118
+Overfull \hbox (144.49498pt too wide) in paragraph at lines 113--113
 []\TU/lmtt/m/n/10 BLAS: /System/Library/Frameworks/Accelerate.framework/Version
 s/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib[] 
  []
@@ -510,14 +513,14 @@ Missing character: There is no ， in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 可 in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no 以 in font [lmroman12-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 Missing character: There is no 不 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 能 in font [lmroman10-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
@@ -532,7 +535,7 @@ Missing character: There is no 走 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 路 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 会 in font [lmroman10-bold]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
@@ -573,22 +576,22 @@ Missing character: There is no 进 in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no 去 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 吗 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ？ in font [lmroman10-regular]:mapping=tex-text;!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 (./chinese_mooc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `chinese_mooc.out' has not changed.
 (rerunfilecheck)             Checksum: AE654EA588D92B4A74BAA71B44D25891;469.
  ) 
 Here is how much of TeX's memory you used:
- 13227 strings out of 481790
- 246500 string characters out of 5936299
- 548405 words of memory out of 5000000
- 30042 multiletter control sequences out of 15000+600000
+ 13237 strings out of 481276
+ 247266 string characters out of 5921298
+ 548548 words of memory out of 5000000
+ 30563 multiletter control sequences out of 15000+600000
  557053 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 50i,6n,70p,809b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,6n,70p,809b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on chinese_mooc.pdf (3 pages).
