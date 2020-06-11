@@ -9,6 +9,8 @@ params:
   title: "Chinese MOOC from Unipus" 
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com 
+output:
+  html_document
 ---
 
 <!-- ---------------------------------------------------------------- -->

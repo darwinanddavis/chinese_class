@@ -11,22 +11,35 @@
 
 
 
-<title></title>
+<title>Measure words</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/navigation-1.1/codefolding.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -234,73 +247,7 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
-
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
 
 
 
@@ -310,16 +257,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -357,132 +294,35 @@ div.tocify {
 
 <div class="fluid-row" id="header">
 
-<div class="btn-group pull-right">
-<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu" style="min-width: 50px;">
-<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
-<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
-</ul>
-</div>
 
 
-
+<h1 class="title toc-ignore">Measure words</h1>
+<h4 class="date">Sys.Date()</h4>
 
 </div>
 
 
-<div id="lesson-2-auxiliary-verbs-能会可以" class="section level1">
-<h1>Lesson 2: Auxiliary verbs 能，会，可以</h1>
+<div id="section" class="section level1">
+<h1>:</h1>
 <p> </p>
-<p>Content for Lesson 2<br />
-能，会，可以<br />
- </p>
+<p>Content for</p>
+<p> </p>
 <!-- ____________________________________________________________________________ -->
-<!-- ____________________________________________________________________________ -->
-<!-- ____________________________________________________________________________ -->
-<!-- start body -->
-<div id="auxiliary-verbs-能会可以" class="section level2">
-<h2>Auxiliary verbs 能，会，可以</h2>
-<ul>
-<li>modify verbs and actions<br />
-</li>
-<li>negate with 不</li>
-</ul>
-<p> </p>
-<hr />
-<div id="能" class="section level3">
-<h3>能</h3>
-<ul>
-<li>expresses ability<br />
-</li>
-<li>expresses possibility due to circumstance</li>
-</ul>
-<p>他不能走路<br />
-He can’t walk<br />
-他能走路<br />
-He can walk</p>
-<p> </p>
-<hr />
-</div>
-<div id="会" class="section level3">
-<h3>会</h3>
-<ul>
-<li>expresses grasp of skill from learning<br />
-</li>
-<li>expresses possibility</li>
-</ul>
-<p>今天不会下雨<br />
-Today it won’t rain</p>
-<p> </p>
-<hr />
-</div>
-<div id="可以" class="section level3">
-<h3>可以</h3>
-<ul>
-<li>expresses permission</li>
-</ul>
-<p>我可以用一下你的自行车吗？<br />
-Can I use your bike?</p>
-<p>Pose a question with auxiliary verbs by<br />
-- using the positive and negative form<br />
-- using 吗</p>
-<p>你能不能来？ / 你能来吗？<br />
-<em>能 / 不能</em></p>
-<p>你会不会开车？ / 你会开车吗？<br />
-<em>会 / 不会</em></p>
-<p>我可以不可以进去 / 我可以进去吗？<br />
-<em>可以 / 不行</em></p>
-<p>Note<br />
-- use 不行 not 不可以 when answering 可以 questions with 吗<br />
-- only use 不可以 when making a command or being very serious， e.g. 考试的时候不可以看手机</p>
-<p> </p>
-<hr />
-</div>
-<div id="examples" class="section level3">
-<h3>Examples</h3>
-<p>大卫会游泳， 安妮不会游泳<br />
-大卫不会来了<br />
-他不能写字<br />
-他们不能去爬山了<br />
-老师，你可以回宿舍休息吗？</p>
-<hr />
-</div>
-</div>
-<div id="quiz" class="section level2">
-<h2>Quiz</h2>
-<ol style="list-style-type: decimal">
-<li><p>下个星期我有考试，不___去旅游了。<br />
-能</p></li>
-<li><p>我 _ 用一下儿你的笔吗？<br />
-我(Wǒ) _ 用(yòng)一(yī)下(xià)儿(er)你(nǐ)的(de)笔(bǐ)吗(ma)？<br />
-可以</p></li>
-<li><p>大(Dà)卫(wèi)没(méi)学(xué)过(guò)汉(hàn)语(yǔ)，他(Tā)不(bù)___写(xiě)汉(hàn)字(zì)。<br />
-会</p></li>
-<li><p>今(Jīn)天(tiān)是(shì)周(zhōu)末(mò)，我(Wǒ)____晚(wǎn)一(yì)点(diǎn)儿(er)起(qǐ)床(chuáng)。<br />
-可以</p></li>
-<li><p>安(ān)妮(nī)，你(Nǐ)____骑(qí)自(zì)行(xíng)车(chē)吗(ma)？<br />
-会</p></li>
-</ol>
-<p>用“能、会、可以”完成句子。</p>
-<ol start="6" style="list-style-type: decimal">
-<li><p>我(Wǒ)明(míng)天(tiān)考(kǎo)试(shì)，(1)。（看(kàn)电(diàn)影(yǐng)）<br />
-不能去看电影了</p></li>
-<li><p>老(Lǎo)师(shī)，我(Wǒ)不(bù)舒(shū)服(fu)，(1)？（回(huí)宿(sù)舍(shè)）<br />
-可以回宿舍吗</p></li>
-<li><p>我(Wǒ)没(méi)学(xué)过(guò)法(fǎ)语(yǔ)，(1)。（说(shuō)法(fǎ)语(yǔ)）<br />
-不会说法语</p></li>
-<li><p>大(Dà)卫(wèi)最(zuì)近(jìn)很(hěn)忙(máng)，(1)？（参(cān)加(jiā)晚(wǎn)会(huì)）<br />
-能参加晚会吗</p></li>
-<li><p>考(Kǎo)试(shì)的(de)时(shí)候(hòu)(1)。（看(kàn)手(shǒu)机(jī)）<br />
-不可以看手机</p></li>
-</ol>
+<p><!-- ____________________________________________________________________________ --> <!-- ____________________________________________________________________________ --> <!-- start body --></p>
+<div id="section-1" class="section level2">
+<h2></h2>
+<!-- Turn into df? -->
+<!-- ```{r} -->
+<!-- char <- c("一种颜色")    -->
+<!-- ``` -->
+<p>种 | zhong | | 一种颜色 |<br />
+件 | jian | clothes | 一件衣服 |<br />
+份 | fen | food? | 一份牛肉的 |</p>
 </div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -514,38 +354,7 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeCodeFolding("hide" === "show");
-});
-</script>
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3,h4",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -10,8 +10,7 @@ params:
 header-includes: \usepackage{float}
 always_allow_html: yes
 output:
-  html_document:
-    code_folding: hide
+  html_document
 ---
 
 ```{r echo = FALSE}
@@ -52,9 +51,13 @@ Content for `r params$lesson`
 <!-- ____________________________________________________________________________ -->
 <!-- start body -->  
 
-## Auxiliary verbs 能，会，可以  
+## `r params$title`  
 - modify verbs and actions    
 - negate with 不  
+
+\ 
+
+******  
 
 ### 能  
 - expresses ability  
@@ -65,6 +68,10 @@ He can't walk
 他能走路  
 He can walk  
 
+\  
+
+******  
+
 ### 会    
 - expresses grasp of skill from learning    
 - expresses possibility    
@@ -72,7 +79,11 @@ He can walk
 今天不会下雨  
 Today it won't rain  
 
-### 可以   
+\  
+
+******    
+
+### 可以     
 - expresses permission  
 
 我可以用一下你的自行车吗？   
@@ -95,25 +106,31 @@ Note
 - use 不行 not 不可以 when answering 可以 questions with 吗      
 - only use 不可以 when making a command or being very serious， e.g. 考试的时候不可以看手机   
 
-Examples  
+\  
 
-大卫会游泳， 阿妮不会游泳    
+******    
+
+### Examples    
+
+大卫会游泳， 安妮不会游泳    
 大卫不会来了  
 他不能写字  
 他们不能去爬山了  
 老师，你可以回宿舍休息吗？ 
+
+******  
 
 ## Quiz 
 
 1.  
 下个星期我有考试，不___去旅游了。   
 能
-
+  
 2.  
-我___用一下儿你的笔吗？ 
-我(Wǒ)___用(yòng)一(yī)下(xià)儿(er)你(nǐ)的(de)笔(bǐ)吗(ma)？  
-可以   
-
+我 _ 用一下儿你的笔吗？   
+我(Wǒ) _ 用(yòng)一(yī)下(xià)儿(er)你(nǐ)的(de)笔(bǐ)吗(ma)？      
+可以     
+  
 3.  
 大(Dà)卫(wèi)没(méi)学(xué)过(guò)汉(hàn)语(yǔ)，他(Tā)不(bù)___写(xiě)汉(hàn)字(zì)。  
 会  
@@ -130,7 +147,7 @@ Examples
 用“能、会、可以”完成句子。  
  
 6.   
-我(Wǒ)明(míng)天(tiān)考(kǎo)试(shì)，(1)。（看(kàn)电(diàn)影(yǐng)）
+我(Wǒ)明(míng)天(tiān)考(kǎo)试(shì)，(1)。（看(kàn)电(diàn)影(yǐng)）  
 不能去看电影了    
 
 7.  
@@ -146,7 +163,7 @@ Examples
 能参加晚会吗   
 
 10.  
-考(Kǎo)试(shì)的(de)时(shí)候(hòu)(1)。（看(kàn)手(shǒu)机(jī)） 
+考(Kǎo)试(shì)的(de)时(shí)候(hòu)(1)。（看(kàn)手(shǒu)机(jī)）   
 不可以看手机     
 
 
