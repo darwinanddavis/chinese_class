@@ -4,12 +4,16 @@ navbar:
   left:
     - text: "Home"
       href: index.html  
-    - text: "Lesson 2"
-      href: lesson2.html
-    - text: "Lesson 3"
-      href: lesson3.html
-    - text: "Lesson 4"
-      href: lesson4.html   
+    - text: "Lesson 1.2"
+      href: lesson1_2.html
+    - text: "Lesson 1.3"
+      href: lesson1_3.html
+    - text: "Lesson 2.1"
+      href: lesson2_1.html
+    - text: "Lesson 2.2"
+      href: lesson2_2.html
+    - text: "Lesson 2.3"
+      href: lesson2_3.html   
   right:
     - text: "Matt Malishev"    
 output_dir: 'docs'

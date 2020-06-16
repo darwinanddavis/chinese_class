@@ -1,0 +1,24 @@
+---
+params:
+  lesson: "Questions for Yu"  
+  title: ""          
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: ""  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+
+
+## Questions for yu    
+
+两 vs 辆     
+你 vs 您  
+
+## Lesson 2.3  
+how is '着' used correctly here? 他最喜欢喝着啤酒看足球比赛。     

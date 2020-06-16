@@ -1,0 +1,150 @@
+---
+params:
+  lesson: "Lesson 2.2"
+  title: "Using ‘地’字结构"        
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "地"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`    
+
+ADJ/ADV + 地 + VERB/verb phrase     
+- describes how the action is finished   
+- used for general action statements  
+
+\  
+
+******      
+  
+### Test question      
+
+孩子高高兴兴地去上学了。  
+The children went to school happily  
+
+我努力地写汉字。  
+I am writing Chinese characters carefully     
+
+我大声地唱歌。  
+I am singing loudly  
+
+他轻轻地走进了教室  
+She went to the classroom quietly    
+
+今天晚上我要美美的吃一顿烤鸭    
+I want to eat a lovely roast duck tonight    
+
+\  
+
+******      
+  
+## Exercises  
+
+教室大家正在安静地考试    
+
+那些人缓慢地做太极拳动作    
+
+我最近太累了真想舒舒服服地睡一觉   
+
+\  
+
+******      
+  
+## Quiz    
+
+1.  
+安静地  
+考试  
+
+2.  
+缓慢地  
+打太极拳
+
+3.  
+认真地  
+写汉字， 考试， 给他号脉  
+
+4.  
+生气地  
+出去了， 回家了  
+
+5.  
+高兴地  
+写汉字， 回家了  
+
+6.  
+美美地  
+吃一顿  
+
+7.  
+安静地  
+教室里大家正在安静地写作业。
+
+8.  
+高兴地  
+每天孩子们都去学校上学  
+每天孩子们都高兴地去学校上学。  
+  
+9.  
+美美地  
+那个饭馆的菜真好吃，昨天我们美美地吃了一顿。  
+
+10。    
+舒舒服服地  
+最近我太累了，真想舒舒服服地睡一天。  
+
+
+  
+
+
+
+
+
+
+
+
+

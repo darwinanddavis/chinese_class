@@ -31,10 +31,21 @@ knitr::opts_chunk$set(
 )
 
 # rmarkdown::render_site() # render entire site
+
+# from june 14
+# 25 units left
+# 3-4 units a week until aug 8
+
 ```
 
 # Chinese class from Unipus MOOC  
-[Advanced Chinese Grammar-Primary](https://moocs.unipus.cn/my/course/373)    
+
+\  
+
+******    
+
+
+## [Advanced Chinese Grammar-Primary](https://moocs.unipus.cn/my/course/373)      
 
 \newpage   
 
