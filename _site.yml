@@ -16,6 +16,10 @@ navbar:
       href: lesson2_3.html   
     - text: "Lesson 2.4"
       href: lesson2_4.html 
+    - text: "Lesson 2.5"
+      href: lesson2_5.html 
+    - text: "Lesson 3.1"
+      href: lesson3_1.html 
   right:
     - text: "Matt Malishev"    
 output_dir: 'docs'

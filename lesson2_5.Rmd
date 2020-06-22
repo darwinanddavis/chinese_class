@@ -1,0 +1,195 @@
+---
+params:
+  lesson: "Lesson 2.5"
+  title: "Verb phrases and attributes using ‘的’"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "的"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`       
+
+V + 的 + N  
+Verb phrase + 的 + Noun phrase  
+- Indicates a specific person or thing    
+
+\  
+
+******      
+    
+## Test questions   
+  
+大卫在踢足球    
+**踢足球的**那个人是大卫    
+David is playing football  
+The man playing football is David  
+    
+\  
+
+******      
+    
+## Examples     
+
+这是蛋糕    
+这是**妈妈做的**蛋糕  
+This is a cake  
+This is mum's cake  
+
+请问哪位是鱼老师？    
+**喝咖啡的**那个人是鱼老师    
+Which one is teacher Yu?  
+Teacher Yu is the one that is drinking coffee.       
+
+我在中国买了一个礼物  
+这是**我在中国买的**礼物  
+I bought a present in China    
+This is the present I bought in China    
+
+\  
+
+******      
+    
+## Exercises  
+
+这是一张中国拍的照片。  
+在中国拍的照片。  
+This is a photo taken in China  
+It is taken in China      
+
+弟弟手里拿着什么？  
+他画的画儿  
+What is the younger brother holding?  
+The painting he painted   
+
+那个人是太极老师？    
+穿白色衣服的老人    
+Who is the Tai Chi teacher?  
+The old man in white clothes  
+
+\  
+
+******      
+    
+## Quiz   
+
+Put the words in the correct place  
+
+1.    
+"的"  
+  
+这  A 是  B 姐 姐  C 送  我 D  生 日  礼物。  
+这是姐姐送我的生日礼物。  
+
+2.  
+"老人"  
+  
+大家都觉得表演功夫的很了不起。  
+大家都觉得表演功夫的老人很了不起。  
+
+3.  
+"学生"  
+
+来中国学习汉语的越来越多。  
+来中国学习汉语的学生越来越多。  
+
+4.  
+"送"  
+
+今天是他的生日, 这些都是朋友的礼物。     
+今天是他的生日，这些都是朋友送的礼物。  
+
+TRUE OR FALSE  
+
+5.      
+这  是  汉 语 书  大卫  买  的。     
+FALSE  
+
+6.  
+安妮 写  的  汉 字 很  漂  亮。   
+TRUE  
+
+7.  
+墙    上    有  一 张    爸爸 画  的 画儿。  
+TRUE  
+
+8.  
+我最  喜欢   吃  妈妈 做  的 菜。   
+TRUE  
+
+9.  
+那 个 人  穿    着  白 色 运 动  服 的 是  马 丁。  
+FALSE   
+
+10.  
+安妮 是  我们  班  汉 语  说   得 最  好  的 学 生。   
+TRUE  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
