@@ -20,6 +20,10 @@ navbar:
       href: lesson2_5.html 
     - text: "Lesson 3.1"
       href: lesson3_1.html 
+    - text: "Useful phrases"
+      href: useful_phrases.html 
+    - text: "问鱼老师"
+      href: yu_questions.html 
   right:
     - text: "Matt Malishev"    
 output_dir: 'docs'

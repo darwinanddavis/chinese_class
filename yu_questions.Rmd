@@ -15,7 +15,7 @@ output:
 
 
 
-## Questions for yu    
+## Questions for 鱼老师      
 
 两 vs 辆     
 你 vs 您  
@@ -31,6 +31,10 @@ how is '着' used correctly here?
 Why is this correct?  
 安妮 是  我们  班  汉 语  说   得 最  好  的 学 生。     
 
+## Lesson 3.1    
+Why is the top one not correct like the bottom one?   
+这件衣服跟那件衣服一样颜色。   
+这件衣服的颜色跟那件衣服一样。  
 
 
 

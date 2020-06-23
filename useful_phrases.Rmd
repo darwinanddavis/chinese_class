@@ -4,7 +4,6 @@ params:
 title: "Useful phrases and notes"        
 link: "https://moocs.unipus.cn/course/373/task/27612/show"
 content: "  "
-date: !r Sys.Date()
 email: matthew.malishev@gmail.com    
 # end inputs ---------------------------------------------------------------
 header-includes: \usepackage{float}
@@ -39,12 +38,6 @@ knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
 setwd(paste0(params$dir,"/")) # for running just in R not knitr
 ```
 
-# `r paste0(params$lesson,": ",params$title)`    
-\  
-
-Content for `r params$lesson`  
-`r params$content`      
-\  
 
 <!-- ____________________________________________________________________________ -->
   <!-- ____________________________________________________________________________ -->
@@ -115,9 +108,21 @@ For a while
 E.g.   
 一会儿去  Go for a while   
 一会儿就好 Just a moment   
+
+******  
+
+## Lesson 3.1    
   
-  
-  
+放心吧    
+Don't worry    
+
+我听说 。。。  
+I heard 。。。   
+
+我还没习惯。   
+I'm not used to it yet.  
+
+
 
 
 
