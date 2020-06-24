@@ -1,9 +1,9 @@
 ---
 params:
-  lesson: "Lesson 3.1"
-  title: "The same as: '一样'"            
+  lesson: "Lesson 3.2"  
+  title: Comparative sentences            
   link: "https://moocs.unipus.cn/course/373/task/27612/show"
-  content: "一样"  
+  content: "比"  
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com    
   # end inputs ---------------------------------------------------------------
@@ -47,6 +47,7 @@ setwd(paste0(params$dir,"/")) # for running just in R not knitr
 
 \  
 
+
 # `r paste0(params$lesson,": ",params$title)`    
 \  
 
@@ -61,8 +62,12 @@ Content for `r params$lesson`
   
 ## `r params$title`      
 
-
-
+Compare two people or things or actions to describe the difference    
+。。。 比 。。。 + ADJ  
+E.g.  
+N + 比 + N + ADJ  
+V + 比 + V + ADJ    
+The adjective describes the comparison between the nouns/verbs  
 
 \  
 
@@ -70,7 +75,26 @@ Content for `r params$lesson`
   
 ## Test question        
 
- 
+老北京比小上海干净    
+Old Beijing is cleaner than Little Shanghai  
+
+老北京比小上海好吃    
+Old Beijing is better (food) than Little Shanghai  
+
+小上海比老北京便宜   
+Little Shanghai is cheaper than Old Beijing     
+
+小上海比老北京便近    
+Little Shanghai is closer than Old Beijing     
+
+这个咖啡比那个茶贵。   
+This coffee is more expensive than that tea    
+
+大卫比我重  
+David is heavier than me  
+
+那个菜比这个菜辣  
+That dish is spicier than this one    
 
 \  
 
@@ -79,11 +103,62 @@ Content for `r params$lesson`
 ## Examples   
 
 
+大卫比我高  
+David is taller than me.      
+
+今天比昨天热  
+It is hotter today than yesterday  
+
+堵车的时候，走路比开车快  
+In traffic jams, walking is faster than driving  
 
 \  
 
 ******      
   
 ## Quiz  
+
+Fill in the blanks  
+
+1.  
+一年不见，小明比去年更**高**了。  
+
+2.  
+我的听力比阅读**好**  
+
+3.  
+北京比上海**大**       
+
+4.    
+我们打车去吧，打车比坐公共汽车**快**  
+
+5.  
+你多穿点儿吧，今天比昨天 **冷**  
+
+TRUE OR FALSE  
+
+6.    
+我今年比去年胖 
+TRUE  
+
+7.  
+爸爸比妈妈很忙  
+FALSE   
+
+8.  
+学语法比学汉字容易。  
+TRUE  
+
+9.  
+这个教室比那个教室大  
+TRUE  
+
+10.  
+这个宾馆舒服比那个宾馆    
+FALSE  
+
+
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 params:
-  lesson: "Lesson 3.1"
+  lesson: "Lesson 3.1"  
   title: "The same as: '一样'"            
   link: "https://moocs.unipus.cn/course/373/task/27612/show"
   content: "一样"  
@@ -38,6 +38,15 @@ knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
 
 setwd(paste0(params$dir,"/")) # for running just in R not knitr
 ```
+
+\  
+
+\  
+
+\  
+
+\  
+
 
 # `r paste0(params$lesson,": ",params$title)`    
 \  
