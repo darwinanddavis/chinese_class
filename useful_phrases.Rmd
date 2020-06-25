@@ -38,6 +38,14 @@ knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
 setwd(paste0(params$dir,"/")) # for running just in R not knitr
 ```
 
+\  
+
+\  
+
+\  
+
+\  
+
 
 <!-- ____________________________________________________________________________ -->
   <!-- ____________________________________________________________________________ -->
@@ -47,6 +55,15 @@ setwd(paste0(params$dir,"/")) # for running just in R not knitr
 ## `r params$title`      
 ** = double check  
 \  
+
+## Lesson 1.1 
+
+我想当。。。  
+I want to be ...  
+
+劳驾。  
+Excuse me.   
+
 
 ## Lesson 4    
 
