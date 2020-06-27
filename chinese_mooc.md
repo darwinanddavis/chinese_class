@@ -69,7 +69,7 @@ vignette: >
 
 \newpage   
 
-Date: 2020-06-25  
+Date: 2020-06-27  
 R version: 3.5.0   
 *Corresponding author: matthew.malishev@gmail.com  
 This document can be found at https://moocs.unipus.cn/my/course/373  
