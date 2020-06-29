@@ -1,0 +1,247 @@
+---
+params:
+  lesson: "Lesson 3.4"
+  title: "Comparative sentences III：A+V+得+比+B+ADJ / A比B+V+得+ADJ"         
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "比"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+Express the extent of a verb when comparing two people/things       
+
+Option 1   
+A does verb compared to B by this extent (ADJ)      
+A + V + 得 + 比 + B + ADJ      
+
+Negative form: replace 比 with 没有 using the same ADJ       
+N + V + 得 + 没有 + N + ADJ        
+
+Option 2    
+A compared to B does verb by this extent (ADJ)  
+A + 比 + B + V + 得 + ADJ  
+
+Negative form: replace 比 with 没有 using the same ADJ     
+A + 没有 + B + V + 得 + ADJ   
+
+\  
+
+******      
+  
+## Test question        
+
+我篮球打得比大卫好。  
+I play basketball better than David.  
+
+大卫足球踢得比我好。  
+David kicks a football better than me.   
+
+
+\  
+
+******      
+    
+## Examples   
+
+#### 1  
+
+Option 1  
+我穿得比大卫多。   
+大卫穿得比我少。  
+大卫穿得没有我多。 （negative form)  
+I wear more than David.    
+David wears less than me.  
+David wears less than me.    
+
+Option 2  (N) = implicit part  
+我(衣服)比大卫穿得多。            
+大卫没有我穿得多.（negative form)      
+I wear more (clothes) than David.   
+David wears less than me.     
+
+#### 2  
+
+Option 1  
+我做饭做得比食堂做饭做得好吃。   
+I cook better than the cafeteria.  
+
+Option 2  
+我没有我的妈妈做得好吃。      
+I don't cook as well as my mum.    
+
+#### 3    
+
+Option 1   
+我的口语考试考得比你好。     
+My oral exam is better than yours.    
+
+Option 2    
+你的听力考试比我考得好。          
+Your listening exam is better than mine.      
+
+你的字写得比我漂亮多了。  
+Your handwriting is more pretty than mine.   
+
+#### Summary  
+
+Situation:  
+大卫考了100分我80考了分。  
+David scored 100 points, I scored 80 points.    
+
+大卫考得比我好。A + V + 得 + 比 + B + ADJ（option 1)    
+大卫比我考得好。A + 比 + B + V + 得 + ADJ（option 2)   
+David scored better than me.   
+
+Situation:  
+大卫是七点半来的，我八点来的。   
+David came at 7.30, I came at 8.  
+
+大卫来得比我早。A + V + 得 + 比 + B + ADJ（option 1)    
+大卫比我来得早。A + 比 + B + V + 得 + ADJ（option 2)  
+David came earlier than me.  
+
+### 2  
+
+Situation  
+妈妈做饭特别好吃， 我做饭很一般。   
+My mum's cooking is particularly delicious, my cooking is average.  
+
+妈妈(做)饭做得比我好吃。 A +（V）+ O + V + 得比 + B + ADJ (option 1)      
+妈妈(做)饭比我做得好吃。A +（V）+ O + 比 + B + V + 得 + ADJ (option 2)       
+Mum cooks better than me.      
+
+Situation  
+大卫的字写得很漂亮， 我的字写得不太漂亮。    
+David's handwriting is very pretty, my handwriting is not so pretty.    
+
+大卫(写)子写得比我漂亮。A +（V）+ O + V + 得比 + B + ADJ (option 1)            
+大卫写子比我写得漂亮。A +（V）+ O + 比 + B + V + 得 + ADJ (option 2)        
+David writes more pretty than me.    
+
+### Negative forms  
+
+我字写得没有大卫漂亮。  
+我字没有大卫写得漂亮。   
+My writing is not as pretty as David's.    
+
+## Grammar exercises      
+
+他睡得比他的妻子早。（option 1)    
+他比他的妻子睡得早。（option 2)         
+He went to sleep earlier than his wife.        
+
+他喝得比我多。（option 1)          
+他比我喝得多。（option 2)            
+He drank more than I did.    
+
+他开得比我好。（option 1)       
+他比我开得好。（option 2)        
+He drives better than me.    
+
+我汉语说得比他好。（option 1)        
+我汉语比他说得好。 （option 2)     
+I speak Chinese better than him.        
+  
+\  
+
+******      
+  
+## Quiz  
+
+Choose the negative form  
+  
+1.  
+我比弟弟开车开得快。  
+弟弟没有我开得快。 
+
+2.  
+这几天他减肥，所以我吃得比他多。  
+他没有我吃得多。    
+
+3.  
+今天太冷了，我穿得很少，他比我穿得更少。  
+我衣服穿得没有他少。    
+
+4.    
+这个月安妮花了2000元，大卫花了5000元。  
+安妮没有大卫花得多。
+
+5.  
+大卫喜欢看书，他知道很多中国的故事。山本看得少，不太了解中国。  
+山本没有大卫知道得多。  
+
+**判断正误**    
+
+6.    
+我骑车比他骑得快。    
+TRUE    
+
+7.  
+我没有安妮用筷子得好。  
+FALSE    
+
+8.  
+虽然奶奶60岁了，可是我走路没有她快。    
+TRUE  
+
+9.  
+他来中国三年了，比我知道得多。  
+TRUE  
+
+10.  
+我的同屋比我每天都回来得晚。  
+FALSE    
+
