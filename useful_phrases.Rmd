@@ -1,6 +1,6 @@
 ---
 params:
-  lesson: ""   
+  lesson: "Useful phrases and notes"           
 title: "Useful phrases and notes"        
 link: "https://moocs.unipus.cn/course/373/task/27612/show"
 content: "  "
@@ -52,8 +52,10 @@ setwd(paste0(params$dir,"/")) # for running just in R not knitr
   <!-- ____________________________________________________________________________ -->
   <!-- start body -->  
   
-## `r params$title`      
-** = double check  
+## `r params$title`          
+  
+** = double check    
+  
 \  
 
 ## Lesson 1.1 

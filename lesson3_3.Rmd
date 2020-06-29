@@ -1,7 +1,7 @@
 ---
 params:
-  lesson: "Lesson 3.2"  
-  title: Comparative sentences I              
+  lesson: "Lesson 3.3" 
+  title: "Comparative sentences II: comparing precise quantity"
   link: "https://moocs.unipus.cn/course/373/task/27612/show"
   content: "比"  
   date: !r Sys.Date()
@@ -47,7 +47,6 @@ setwd(paste0(params$dir,"/")) # for running just in R not knitr
 
 \  
 
-
 # `r paste0(params$lesson,": ",params$title)`    
 \  
 
@@ -62,12 +61,9 @@ Content for `r params$lesson`
   
 ## `r params$title`      
 
-Compare two people or things or actions to describe the difference    
-。。。 比 。。。 + ADJ  
-E.g.  
-N + 比 + N + ADJ  
-V + 比 + V + ADJ    
-The adjective describes the comparison between the nouns/verbs  
+Express the quantity/number difference between two things  
+。。。比。。。 + ADJ + quantity/number       
+N + 比 + N + ADJ + quantity/number       
 
 \  
 
@@ -75,26 +71,11 @@ The adjective describes the comparison between the nouns/verbs
   
 ## Test question        
 
-老北京比小上海干净    
-Old Beijing is cleaner than Little Shanghai  
+坐飞机比坐火车贵五百块。  
+It's 500快 more expensive by plane than train.  
 
-老北京比小上海好吃    
-Old Beijing is better (food) than Little Shanghai  
-
-小上海比老北京便宜   
-Little Shanghai is cheaper than Old Beijing     
-
-小上海比老北京便近    
-Little Shanghai is closer than Old Beijing     
-
-这个咖啡比那个茶贵。   
-This coffee is more expensive than that tea    
-
-大卫比我重  
-David is heavier than me  
-
-那个菜比这个菜辣  
-That dish is spicier than this one    
+坐飞机比坐火车快两个多小时。  
+It's more than 2 hours faster travelling by plane than train.       
 
 \  
 
@@ -102,15 +83,28 @@ That dish is spicier than this one
     
 ## Examples   
 
+大卫比我大。  
+大卫比我大三岁。  
+David is 3 years older than me.  
 
-大卫比我高  
-David is taller than me.      
+今天比昨天气温高。      
+今天比昨天高四度。        
+The temperature is higher today than yesterday.    
+Today is four degrees higher than yesterday.    
 
-今天比昨天热  
-It is hotter today than yesterday  
+我今天比去年胖了。  
+我今天比去年胖了五公斤。  
+I am fatter this year than last year.      
+I am 5 kilos fatter this year than last year.  
 
-堵车的时候，走路比开车快  
-In traffic jams, walking is faster than driving  
+这个咖啡比那个茶贵四元。  
+This coffee is 4 yuan more expensive than that tea.  
+
+我比大卫重五公斤。  
+I am 5 kilos heavier than David.  
+
+一班比二班多五个学生。    
+There are 5 more students in class 1 than class 2.  
 
 \  
 
@@ -118,45 +112,47 @@ In traffic jams, walking is faster than driving
   
 ## Quiz  
 
-Fill in the blanks  
-
 1.  
-一年不见，小明比去年更**高**了。  
+他比我________。  
+重五公斤  
 
 2.  
-我的听力比阅读**好**  
+麦克比山田_______。  
+大两岁  
 
 3.  
-北京比上海**大**       
+这件大衣比那件________。  
+贵300块    
 
-4.    
-我们打车去吧，打车比坐公共汽车**快**  
+4.  
+超市比商场远________。  
+200多米  
 
 5.  
-你多穿点儿吧，今天比昨天 **冷**  
+这个杯子比那个杯子________。  
+贵20块  
 
 TRUE OR FALSE  
 
-6.    
-我今年比去年胖 
+6.  
+红苹果比黄苹果贵两块。  
 TRUE  
 
 7.  
-爸爸比妈妈很忙  
-FALSE   
-
-8.  
-学语法比学汉字容易。  
-TRUE  
-
-9.  
-这个教室比那个教室大  
-TRUE  
-
-10.  
-这个宾馆舒服比那个宾馆    
+十月比九月一天多。  
 FALSE  
 
+8.  
+今天突然比昨天低了十多度。  
+TRUE   
+
+9.  
+这个房间贵一百块比那个房间。  
+FALSE  
+
+10.  
+我的生日是7月28号，比妈妈的生日早一天。  
+TRUE  
 
 
 
