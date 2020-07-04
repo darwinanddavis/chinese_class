@@ -69,7 +69,8 @@ Content for `r params$lesson`
 
 种 | zhong |  | 一种颜色  |   
 件 | jian | clothes | 一件衣服  |  
-份 | fen | food? | 一份牛肉的 |  
+份 | fen | food? | 一份牛肉的 |    
+辆 measure word for cars  
 
 
 

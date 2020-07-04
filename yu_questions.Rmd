@@ -36,23 +36,27 @@ how is '着' used correctly here?
 这是一张中国拍的照片。     
 
 Why is this correct?  
-安妮 是  我们  班  汉 语  说   得 最  好  的 学 生。     
+安妮 是  我们  班  汉 语  说   得 最  好  的 学 生。       
+MISTAKE IN COURSE. SHOULD BE DOUBLE VERB WITH 得.  
 
 ## Lesson 3.1    
 Why is the top one not correct like the bottom one?   
 这件衣服跟那件衣服一样颜色。   
-这件衣服的颜色跟那件衣服一样。  
+这件衣服的颜色跟那件衣服一样。 
+红 needs to be an adjective, not a noun   
 
 
 ## Lesson 3.2   
 
 Should the top one be the bottom instead?  
 爸爸比妈妈很忙 (incorrect)        
-爸爸比妈妈更忙 (correct)?            
+爸爸比妈妈更忙 (correct)?         
+Top one is 'very busy', which doesn't work when comparing subjects     
 
 ## Lesson 3.3  
 这个对马？   
-一班比二班多五个学生。    
+一班比二班多五个学生了。   
+Correct  
 
 
 

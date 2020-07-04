@@ -61,6 +61,8 @@ Content for `r params$lesson`
   
 ## `r params$title`      
 
+主讲老师雷朔    
+
 Express the extent of a verb when comparing two people/things       
 
 Option 1   

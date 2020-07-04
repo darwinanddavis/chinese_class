@@ -1,0 +1,169 @@
+---
+params:
+  lesson: "Lesson 4.1"
+  title: Linking sentences - representation    
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: ""  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+Preceding a verb with another verb   
+
+
+\  
+
+******      
+  
+## Test question        
+
+你怎么来学校？   
+我走路学校。   
+我开车来学校。  
+How did you come to school?    
+I walk to school.    
+I drove to school.    
+
+你怎么回家？ 
+我打的回家。  
+How do you go home?  
+I take a taxi.      
+ 
+
+\  
+
+******      
+    
+## Examples   
+
+
+
+我回宿舍。  
+你怎么回宿舍？  
+我走路回宿舍。   
+I'm returning to the dorm.  
+How do you return to the dorm.  
+I walk to the dorm.  
+
+我骑自行车去超市。  
+I ride a bike to the supermarket.  
+
+我去超市买东西。  
+我骑自行车去。  
+I'm going to the supermarket to buy things.  
+I go by bike.  
+
+我坐火车去上海。  
+我坐飞机去上海。  
+I take the train to Shanghai.  
+I fly to Shanghai.    
+
+
+
+\  
+
+******      
+  
+## Quiz  
+  
+Insert the missing word  
+
+1.    
+怎么  
+A 安妮 B 每天  早上  C 来  学校 D？  
+安妮每天早上怎么来学校？  
+
+2.  
+骑 自 行 车  
+A 这个  周末 B  我们 C 去  公 园    玩儿 D。  
+这个周末我们骑自行车去公园玩儿。  
+
+3.  
+回  
+A下 个 星期 B 我 C 坐 飞机 D 国。  
+下个星期我坐飞机回国。  
+
+4.  
+开  车  
+爸爸 A 每  天   早上 B 去 C  公 司 D 工 作。  
+爸爸每天早上开车去公司工作。  
+
+TRUE OR FALSE    
+
+5.  
+我们  明  天   怎么  学 校   去？  
+FALSE  
+
+6.    
+我  想   坐  飞机  去  上 海   旅 行。  
+TRUE    
+
+7.  
+马丁  每  天   早 上   来  学  校  走路。  
+FALSE  
+
+8.  
+坐 公 共 汽 车   去 颐和园   太  挤 了。  
+TRUE  
+
+9.  
+大卫  和 马 丁  明  天   去 坐  火 车  天  津。  
+FALSE  
+
+10.  
+那 个 饭馆儿   很  远，  打 的 去  太 贵  了。  
+TRUE  
+
