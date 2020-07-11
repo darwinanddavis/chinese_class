@@ -3,7 +3,7 @@ params:
   lesson: "Lesson 4.2"
   title: "Double object statement"              
   link: "https://moocs.unipus.cn/course/373/task/27612/show"
-  content: ""  
+  content: "叫，教，问，送，给"    
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com    
   # end inputs ---------------------------------------------------------------
@@ -79,9 +79,9 @@ Direct object acted by nouns that indicate things, eg. 书， 礼物
 
 ### 叫  
 你叫什么？  
-我叫大卫。  
-你叫我 。。。 
-我叫他。。。  
+我叫大卫。    
+你叫我 。。。   
+我叫他。。。    
 
 ### 问    
 我要问你很多问题。   

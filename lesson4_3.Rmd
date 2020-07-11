@@ -1,0 +1,171 @@
+---
+params:
+  lesson: "Lesson 4.3"
+  title: "Concurrent statements"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "请，叫，让"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+### 请  
+to treat  
+to ask something politely (SUBJECT = 你 or 你们)      
+请 + SUBJECT + V + OBJ1      
+
+### 叫  
+to ask/tell     
+叫 + SUBJECT + V + OBJ1     
+
+### 让  
+to ask        
+让 + SUBJECT + V + OBJ1     
+
+\  
+
+******      
+  
+## Test question        
+
+### 请    
+我请你吃饭。  
+我请你看电影。  
+I invite you to eat.  
+I invite you to watch a movie.  
+
+请你小声说话。       
+Please speak quietly    
+
+### 叫    
+他叫你关窗户。  
+He told you to close the window.  
+
+### 让    
+老师让我们写生词。        
+The teacher asked us to write new words.       
+
+\  
+
+
+******      
+    
+## Examples   
+
+### 请  
+这里太热了。请你把空调打开吧。  
+It's too hot here. Please turn on the airconditioner.  
+
+### 让  
+我去图书馆。大卫让我给他借一本书。  
+I'm going to the library. Dawei asked me to borrow him a book.  
+
+### 叫  
+这是你叫我借的书。    
+This is the book you asked me to borrow.  
+
+大卫叫我去他那儿。      
+Dawei told me to go to him.      
+
+
+\  
+
+******      
+  
+## Quiz  
+  
+1.  
+上课的时候，老师让同学们__________。  
+读课文  
+
+2.  
+妈妈说她很忙,没时间做饭，她叫我__________。  
+做饭  
+
+3.  
+马丁，__________。  
+请你告诉玛丽  
+
+4.  
+明天有个好看的电影，我__________。  
+请你看电影
+
+SELECT THE CORRECT SENTENCE  
+
+5.  
+太吵了，请大家安静。  
+
+TRUE OR FALSE  
+
+6.  
+刮风了，请你关门。  
+T  
+
+7.  
+太吵了，让你安静。  
+F    
+
+8.    
+晚上朋友请我电影。  
+F   
+
+9. 
+妈妈叫他回家。  
+T 
+
+10.  
+爸爸请他做饭。  
+F  
+
