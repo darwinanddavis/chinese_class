@@ -1,9 +1,9 @@
 ---
 params:
   lesson: "Lesson 3.1"
-  title: "The same as: '一样'"            
+  title: ""            
   link: "https://moocs.unipus.cn/course/373/task/27612/show"
-  content: "一样"  
+  content: ""  
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com    
   # end inputs ---------------------------------------------------------------
