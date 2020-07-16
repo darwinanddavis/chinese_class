@@ -1,0 +1,222 @@
+---
+params:
+  lesson: "Lesson 5.3"
+  title: "Simple directional complements"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "来，去"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+### 来  
+Indicates the direction of action towards the speaker  
+来教室  
+来宿舍  
+  
+### 去  
+Indicates the direction of action against the speaker  
+去学校  
+许食堂  
+
+
+\  
+
+******      
+  
+## Test question        
+
+我可以进去吗？   
+Can I go in?    
+快进来吧。     
+Come in quickly.  
+
+**Scenario 1**  
+
+你快下来，我们一起去吃饭吧。   
+我不下去了， 我包了饺子，你上来吧，我们一起吃饺子。  
+Come down， let's go eat together.    
+I can't go down, I made dumplings. You come up here, let's eat dumplings together.      
+
+**Scenario 2**  
+
+大卫快请进来了。   
+我不进去了，你可以出来吗？      
+David, quickly please come in.  
+I can't come in, can you come out?      
+
+**Scenario 3**    
+你可以过来吗？   
+可以， 我马上过去。   
+Can you come over?  
+I can, I will go immediately.  
+
+**Scenario 4**      
+我忘了作业，我要马上回去。    
+
+I forgot my homework, I want to go back immediately.    
+
+
+\  
+
+******      
+    
+## Examples   
+
+  
+Going up stairs (A - B)  
+大卫上来了。(A - B)      
+大卫上去了。(B - A)      
+David came up.      
+David went up.      
+
+Going down stairs (A - B)  
+大卫下去了。（A - B)    
+大卫下来了。（B - A）    
+David went down.  
+David came down.  
+
+Coming into a room (A - B)  
+大卫进来了。 (A - B)  
+大卫进去了。（B - A)  
+David came in.  
+David went in.  
+
+Going out of a room (A - B)  
+大卫出去了。 (A - B)  
+大卫出来了。（B - A)    
+David went out.  
+David came out.  
+
+Going to a location (A - B)    
+大卫过来了。 (A - B)  
+大卫过去了。(B - A)    
+David is coming.  
+David went away.    
+
+Returning to a location (A - B)  
+大卫回来了。（A - B）   
+大卫回去了。 （B - A)  
+David came back.  
+David went back.  
+
+There is no 去 when using 起, only 来， i.e. 起床      
+大卫起来了。   
+David got up.    
+
+### 来  
+
+他们跑来了。    
+他们走来了。   
+他送来了很多礼物。   
+他给我拿来了一杯咖啡。    
+姐姐从超市回来了。  
+They ran.    
+They came.    
+He sent many gifts.    
+He brought me a cup of coffee.    
+My sister came back from the supermarket.      
+
+\  
+
+******      
+  
+## Quiz  
+  
+Fill in the blank.  
+
+1.  
+外面太冷了，咱们(1)吧！    
+进去    
+
+
+2.  
+他去旅行了，下星期(1)。  
+回来  
+
+3.  
+山上一定很漂亮，咱们快(1)吧！  
+上去  
+
+4.  
+哎，山上的风景美极了，你们快点儿(1)啊！  
+上来  
+
+5.    
+她还没(1)呢，你过一会儿再来电话吧。  
+回来   
+
+TRUE OR FALSE
+
+6.  
+你看！车站在马路那边，你快过来吧。    
+F  
+
+7.  
+图书馆要关门了，我们回去吧。    
+T    
+
+8.  
+房间里特别暖和，你们别在外面聊天了，快出去吧。  
+F 
+
+9.  
+大(Dà)卫(wèi)，我(Wǒ)在(zài)楼(lóu)下(xià)等(děng)你(nǐ)，你快点下去 。  
+F 
+
+10.  
+我(Wǒ)饿(è)了(le)，要出去买点儿吃的。    
+T 
+
