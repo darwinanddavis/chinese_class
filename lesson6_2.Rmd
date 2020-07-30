@@ -1,0 +1,151 @@
+---
+params:
+  lesson: "Lesson 6.2"
+  title: "把"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "把"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+Using 把 to express change in something/someone  
+
+### S + 把 + A + V + 成 + B            
+把 + A = what the speaker intends to express    
+成 + B = what the speaker has already expressed      
+
+\  
+
+******      
+  
+## Test question        
+
+我要把美元换成人民币。  
+I want to exchange US dollars for RMB.  
+
+\  
+
+******      
+    
+## Examples   
+
+我英语翻译成汉语了。   
+我把英语翻译成汉语了。   
+I translated English into Chinese.   
+I translated English to become Chinese. 
+
+我老师当成好朋友了。    
+我把老师当成好朋友了。    
+I treat my teacher as a good friend.  
+My teacher has become a good friend.       
+
+******  
+
+我把红色的衬衫换成了白色的。   
+I changed the red shirt to white.    
+
+我把王老师看成李老师了。   
+I considered Mr Wang as Mr Li.    
+
+
+\  
+
+******      
+  
+## Quiz  
+  
+TRUE or FALSE   
+
+1.  
+我把护士看你的妹妹成了。  
+F     
+
+2.  
+我把8点考试记成9点考试了。  
+T    
+
+3.  
+姐姐把大号的衣服成换中号的了。  
+F 
+
+4.  
+我把同屋当成哥哥了。  
+T 
+  
+5.  
+哥哥把电视听错成电池了。  
+F 
+
+6.  
+他把汉语翻译成日语了。  
+T  
+
+7.    
+他把人民币换了成韩元。  
+F   
+
+8.  
+她换黑色的衣服成了红色的把。  
+F 
+
+9.  
+她把“睡觉”说成“水饺”了。  
+T 
+
+10.  
+她把“1”听“7”成了。  
+F 
+
