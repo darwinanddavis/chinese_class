@@ -50,6 +50,8 @@ navbar:
       href: lesson6_1.html 
     - text: "Lesson 6.2"
       href: lesson6_2.html 
+    - text: "Lesson 6.3"
+      href: lesson6_3.html 
     - text: "Useful phrases"
       href: useful_phrases.html 
     - text: "问鱼老师"
