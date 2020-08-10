@@ -1,9 +1,10 @@
 ---
-Title: "Module 2"    
+Title: 
 header-includes: \usepackage{float}
 always_allow_html: yes
 params: 
   title: "Module 2"
+  lesson: 2
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com 
   github: https://github.com/darwinanddavis/chinese_class   

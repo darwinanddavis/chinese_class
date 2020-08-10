@@ -1,5 +1,5 @@
 ---
-Title: "Module 4"    
+Title: 
 header-includes: \usepackage{float}
 always_allow_html: yes
 params: 
