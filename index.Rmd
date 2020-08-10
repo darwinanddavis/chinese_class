@@ -51,9 +51,22 @@ knitr::opts_chunk$set(
 \newpage   
 
 Date: `r params$date`  
-*Corresponding author: `r params$email`     
+*Corresponding author: `r params$email`  
+[Github link](`r params$github`)       
 
-### [Github link](`r params$github`)      
+## [Module 1](modules/module1.html)  
+
+## [Module 2](modules/module2.html)  
+
+## [Module 3](modules/module3.html)  
+
+## [Module 4](modules/module4.html)  
+
+## [Module 5](modules/module5.html)  
+
+## [Module 6](modules/module6.html)  
+
+## [Module 7](modules/module7.html)      
 
 
 

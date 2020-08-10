@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Chinese MOOC</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="modules/module1.html">Module 1</a>
+</li>
+<li>
+  <a href="modules/module2.html">Module 2</a>
+</li>
+<li>
+  <a href="modules/module3.html">Module 3</a>
+</li>
+<li>
+  <a href="modules/module4.html">Module 4</a>
+</li>
+<li>
+  <a href="modules/module5.html">Module 5</a>
+</li>
+<li>
+  <a href="modules/module6.html">Module 6</a>
+</li>
+<li>
+  <a href="modules/module7.html">Module 7</a>
+</li>
+<li>
+  <a href="modules/module8.html">Module 8</a>
+</li>
+<li>
+  <a href="useful_phrases.html">Useful phrases</a>
+</li>
+<li>
+  <a href="yu_questions.html">问鱼老师</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<div id="lesson-7.1-rhetorical-questions-1-isnt-it-..." class="section level1">
+<h1>Lesson 7.1: Rhetorical questions 1: Isn't it ...?</h1>
+<p> </p>
+<p>Content for Lesson 7.1<br />
+不是 。。。 吗？<br />
+ </p>
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->
+<div id="rhetorical-questions-1-isnt-it-..." class="section level2">
+<h2>Rhetorical questions 1: Isn't it ...?</h2>
+<p>主讲老师：雷朔</p>
+<div id="不是吗" class="section level3">
+<h3>不是。。。吗？</h3>
+<p>Used as a form of affirmation, i.e. did or didn't you?<br />
+Not a negative sentence<br />
+States the obvious or known information<br />
+Expresses surprised and doubtful way of thinking</p>
+<p> </p>
+<hr />
+</div>
+</div>
+<div id="test-question" class="section level2">
+<h2>Test question</h2>
+<p>Q: 你中午怎么没来？<br />
+Why didn't you come at noon?<br />
+A: 你不是说‘晚上’去吗？<br />
+Didn't you say go at night?</p>
+<p>你不是说你不吃辣的菜吗？<br />
+Didn't you say you don't eat spicy food?</p>
+<p>这不是你的眼镜吗？<br />
+你的眼镜不是在这儿吗？<br />
+Aren't these your glasses?</p>
+<p> </p>
+<hr />
+</div>
+<div id="examples" class="section level2">
+<h2>Examples</h2>
+<p>咱们不是刚吃完晚饭吗？ 你又饿了？<br />
+Didn't we just finish dinner? Are you hungry again?</p>
+<p>你不是昨天回国了吗？ 怎么还在这里？<br />
+Didn't you return home yesterday? Why are you still here?</p>
+<p>老师不是刚讲完吗？ 你刚才没听到吗？<br />
+Didn’t the teacher just finish speaking? Didn't you hear it just now?</p>
+<hr />
+<p>我的书呢？<br />
+不是在这里吗？</p>
+<p>老师，今天的作业神马？<br />
+不是告诉你了吗？</p>
+<p>我们星期五下午去逛商场把？<br />
+星期五下午不是有考试吗？<br />
+Should we go shopping at the mall Friday afternoon?<br />
+Isn’t there a test on Friday afternoon?</p>
+<p> </p>
+<hr />
+</div>
+<div id="quiz" class="section level2">
+<h2>Quiz</h2>
+<ol style="list-style-type: decimal">
+<li>大夫，我的咳嗽又厉害了!<br />
+你怎么还抽烟？ ________________</li>
+</ol>
+<p>我不是告诉过你别抽烟了吗？</p>
+<ol start="2" style="list-style-type: decimal">
+<li>阿里，你又迟到了！</li>
+</ol>
+<p>不是八点上课吗？</p>
+<ol start="3" style="list-style-type: decimal">
+<li>服务员，不好意思，我忘了带钱，不能买这些东西了。<br />
+________________？可以用微信付钱啊！</li>
+</ol>
+<p>你不是有手机吗？</p>
+<ol start="4" style="list-style-type: decimal">
+<li>老师 ________________ ？<br />
+不是啊，这是口语课的教室。</li>
+</ol>
+<p>这不是听力课的教室吗?</p>
+<ol start="5" style="list-style-type: decimal">
+<li>你怎么还没走？________________？<br />
+啊！对，我忘了！</li>
+</ol>
+<p>你不是要去看电影吗？</p>
+<p>Select the appropriate use of each rhetoric<br />
+表示不满 (Express dissatisfaction)<br />
+提醒注意 (reminder)<br />
+表示质疑 (questioned)</p>
+<ol start="6" style="list-style-type: decimal">
+<li><p>你 不是 有手机吗？<br />
+提醒注意 (reminder)</p></li>
+<li><p>不是八点上课吗？<br />
+表示质疑 (questioned)</p></li>
+<li><p>你不是要去看电影吗？<br />
+提醒注意 (reminder)</p></li>
+<li><p>我 不是告诉过你 别抽烟了吗？<br />
+表示不满 (Express dissatisfaction)</p></li>
+<li><p>这不是 听力课的教室吗?<br />
+表示质疑 (questioned)</p></li>
+</ol>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

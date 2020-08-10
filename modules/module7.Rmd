@@ -1,0 +1,91 @@
+---
+Title: 
+header-includes: \usepackage{float}
+always_allow_html: yes
+params: 
+  title: "Module 7"
+  lesson: 7
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com 
+  github: https://github.com/darwinanddavis/chinese_class   
+output:
+  html_document
+---
+
+<!-- ---------------------------------------------------------------- -->
+<!-- ----------------------- rmd settings --------------------------- -->
+<!-- ---------------------------------------------------------------- -->
+
+<!-- rmd settings -->
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small", # set code chunk size
+ knitr::opts_chunk$set(fig.pos = 'H')
+)
+
+# rmarkdown::render_site() # render entire site
+
+# from june 14
+# 25 units left
+# 3-4 units a week until aug 8
+
+```
+
+# `r params$title`  
+
+\  
+
+******    
+
+
+\newpage   
+
+Date: `r params$date`  
+*Corresponding author: `r params$email`     
+
+  
+
+## [`r paste0("Lesson ", params$lesson,".1")`](`r paste0('lesson_',params$lesson,'_',1,'.html')`)    
+
+### Using 把 
+
+## [`r paste0("Lesson ", params$lesson,".2")`](`r paste0('lesson_',params$lesson,'_',2,'.html')`)   
+
+### 把    
+Content for Lesson 6.2  
+把  
+
+## [`r paste0("Lesson ", params$lesson,".3")`](`r paste0('lesson_',params$lesson,'_',3,'.html')`)   
+
+### 把 + V + 给  
+Content for Lesson 6.3  
+把， 给    
+
+## [`r paste0("Lesson ", params$lesson,".4")`](`r paste0('lesson_',params$lesson,'_',4,'.html')`)   
+
+### 把 with verbs and directional complement  
+Content for Lesson 6.4    
+S + 把 + O + V + directonal complement
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  

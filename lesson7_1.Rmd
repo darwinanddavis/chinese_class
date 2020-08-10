@@ -1,0 +1,182 @@
+---
+params:
+  lesson: "Lesson 7.1"
+  title: "Rhetorical questions 1: Isn't it ...?"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "不是 。。。 吗？"    
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+主讲老师：雷朔  
+
+### 不是。。。吗？  
+Used as a form of affirmation, i.e. did or didn't you?   
+Not a negative sentence  
+States the obvious or known information   
+Expresses surprised and doubtful way of thinking     
+
+\  
+
+******      
+  
+## Test question        
+
+Q: 你中午怎么没来？    
+Why didn't you come at noon?    
+A: 你不是说‘晚上’去吗？   
+Didn't you say go at night?  
+
+你不是说你不吃辣的菜吗？   
+Didn't you say you don't eat spicy food?    
+
+这不是你的眼镜吗？     
+你的眼镜不是在这儿吗？   
+Aren't these your glasses?    
+
+
+\  
+
+******      
+    
+## Examples   
+
+咱们不是刚吃完晚饭吗？ 你又饿了？   
+Didn't we just finish dinner? Are you hungry again?  
+
+你不是昨天回国了吗？ 怎么还在这里？     
+Didn't you return home yesterday? Why are you still here?  
+
+老师不是刚讲完吗？ 你刚才没听到吗？    
+Didn’t the teacher just finish speaking? Didn't you hear it just now?  
+
+******  
+
+我的书呢？  
+不是在这里吗？   
+
+老师，今天的作业神马？    
+不是告诉你了吗？  
+
+我们星期五下午去逛商场把？    
+星期五下午不是有考试吗？   
+Should we go shopping at the mall Friday afternoon?    
+Isn’t there a test on Friday afternoon?      
+
+
+\  
+
+******      
+  
+## Quiz  
+  
+1.  
+大夫，我的咳嗽又厉害了!     
+你怎么还抽烟？   ________________  
+
+我不是告诉过你别抽烟了吗？  
+
+2.  
+阿里，你又迟到了！    
+
+不是八点上课吗？
+
+3.  
+服务员，不好意思，我忘了带钱，不能买这些东西了。  
+________________？可以用微信付钱啊！  
+
+你不是有手机吗？    
+
+
+4.  
+老师 ________________ ？  
+不是啊，这是口语课的教室。  
+
+这不是听力课的教室吗?  
+
+
+5.  
+你怎么还没走？________________？  
+啊！对，我忘了！  
+
+
+你不是要去看电影吗？  
+
+Select the appropriate use of each rhetoric  
+表示不满 (Express dissatisfaction)  
+提醒注意  (reminder)    
+表示质疑 (questioned)  
+
+6.  
+你 不是 有手机吗？  
+提醒注意  (reminder)
+
+7.  
+不是八点上课吗？  
+表示质疑 (questioned)    
+
+8.  
+你不是要去看电影吗？  
+提醒注意  (reminder)     
+
+9.  
+我 不是告诉过你 别抽烟了吗？  
+表示不满 (Express dissatisfaction)   
+
+10.  
+这不是 听力课的教室吗?  
+表示质疑 (questioned)    
+
