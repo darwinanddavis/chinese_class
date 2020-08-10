@@ -5,7 +5,7 @@ navbar:
     - text: "Home"
       href: index.html  
     - text: "Module 1"
-      href: modules/module1.html
+      href: module1.html
     - text: "Module 2"
       href: modules/module2.html
     - text: "Module 3"
