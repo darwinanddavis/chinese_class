@@ -51,29 +51,26 @@ knitr::opts_chunk$set(
 Date: `r params$date`  
 *Corresponding author: `r params$email`     
 
-  
 
-## [`r paste0("Lesson ", params$lesson,".1")`](`r paste0('lesson_',params$lesson,'_',1,'.html')`)    
+## [`r paste0("Lesson ", params$lesson,".1")`](`r paste0('lesson',params$lesson,'_',1,'.html')`)    
 
-### Using 把 
+### Rhetorical questions 1: Isn't it ...?  
+Content for Lesson 7.1  
+不是 。。。 吗？    
 
-## [`r paste0("Lesson ", params$lesson,".2")`](`r paste0('lesson_',params$lesson,'_',2,'.html')`)   
+## [`r paste0("Lesson ", params$lesson,".2")`](`r paste0('lesson',params$lesson,'_',2,'.html')`)   
 
-### 把    
-Content for Lesson 6.2  
-把  
+### Rhetorical questions 1: Is it ...?  
+Content for Lesson 7.2  
+难道……吗?  
 
-## [`r paste0("Lesson ", params$lesson,".3")`](`r paste0('lesson_',params$lesson,'_',3,'.html')`)   
+## [`r paste0("Lesson ", params$lesson,".3")`](`r paste0('lesson',params$lesson,'_',3,'.html')`)   
 
-### 把 + V + 给  
-Content for Lesson 6.3  
-把， 给    
+### 
 
-## [`r paste0("Lesson ", params$lesson,".4")`](`r paste0('lesson_',params$lesson,'_',4,'.html')`)   
+## [`r paste0("Lesson ", params$lesson,".4")`](`r paste0('lesson',params$lesson,'_',4,'.html')`)   
 
-### 把 with verbs and directional complement  
-Content for Lesson 6.4    
-S + 把 + O + V + directonal complement
+### 
 
 
   

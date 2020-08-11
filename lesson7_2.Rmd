@@ -1,0 +1,179 @@
+---
+params:
+  lesson: "Lesson 7.2"
+  title: "Rhetorical questions 1: Is it ...?"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "难道……吗?"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+主讲老师：雷朔    
+
+### 难道 (adverb)    
+  
+- Used in rhetorical sentences to emphasise tone      
+- Using rhetoric to deliver emotion, such as query, astonishment, or anger        
+- Used to make the speaker's attitude more clear  
+- Used to express strong query or dissatisfaction when combined with 不 or 没      
+
+Common usages  
+不可能 (impossible)      
+不应该 (shouldn't)  
+不会的 (will not)   
+不可以（can't be)    
+
+
+\  
+
+******      
+  
+## Test question        
+
+难道你不认识我了嘛？   
+You can't recognise me，can you?  
+
+今天是妈妈的生日，你难道忘了吗？      
+Today is mom’s birthday, have you forgotten it?        
+
+这个同学， 你难道没看见我们在上课吗？   
+This classmate, don't you see us in class?    
+
+\  
+
+******      
+    
+## Examples   
+
+你难道不知道。。。 吗？   
+Don't you know ... ?    
+
+你有那么多衣服，难道还是没有合适的吗？  
+You have so many clothes, do you still not have suitable ones?    
+
+今天是假日，没有课，你难道不知道吗？    
+Today is a holiday and there are no classes, don’t you know?    
+
+你难道没有看通知吗？   
+Didn't you read the notice?  
+
+你不明白吗? --> 你难道不明白吗？  
+Don't you understand? --> Don't you understand (rhetorical)?  
+你忘了吗？--> 你难道忘了吗？  
+Did you forget? --> Did you forget (emphasis)?  
+
+******  
+
+放这么多辣椒，难道不辣吗？    
+Isn't it spicy, with so many peppers?  
+
+你穿这么少难道不冷吗？  
+Isn't it cold for you to wear so little?  
+
+你难道没看见吗？     
+Didn't you see it?  
+
+你难道没有吗？    
+Don‘t you have it?  
+
+
+
+\  
+
+******      
+  
+## Quiz  
+  
+1.  
+他为你做了这么多事情，你真应该谢谢他。  
+你难道不应该谢谢他吗？  
+
+2.  
+我不可能相信你.  
+我难道会相信你吗？  
+
+3.  
+你去了中国这么久，不可能不会说汉语。  
+你难道不会说汉语吗？    
+
+4.  
+这么简单的问题你应该知道。  
+这么简单的问题你难道都不知道吗？  
+
+5.  
+这个人又懒又笨（stupid），你不可能跟他结婚（married）！  
+你难道要跟他结婚吗？  
+
+6.  
+今天没有课，你难道不知道吗？  
+T  
+
+7.  
+你难道看天气预报吗？    
+F  
+
+8.  
+他说让我们十点在这里见面，怎么还没来？他难道没忘吗？  
+F  
+
+9.  
+你是四川人，难道不吃辣的吗？  
+T  
+
+10.  
+我要的东西呢？你难道又忘了吗？  
+T   
+
