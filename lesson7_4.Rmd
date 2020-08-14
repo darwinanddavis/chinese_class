@@ -1,0 +1,204 @@
+---
+params:
+  lesson: "Lesson 7.4"
+  title: "Using interrogative pronouns to express arbritrary reference"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: "都， 也"  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+### 都 & 也    
+
+Creating an affirmative or negative statement with interrogative pronoun, e.g. 谁， 哪儿， 什么      
+
+For affirmative sentences, only 都 is used.  
+
+什么 + 都   
+谁 + 都      
+哪儿 + 都     
+
+e.g.  
+我什么水果都喜欢。     
+
+For negative sentences, 都 or 也 can be used.    
+
+谁 + 也    
+
+e.g. 
+我什么也不想做。     
+谁也没见过他。    
+
+\  
+
+******      
+  
+## Test question        
+
+你哪儿不舒服？   
+我哪都不舒服。  
+Where are you not feeling well?    
+I'm not feeling well anywhere.  
+
+你吃饭了吗？    
+我什么也不想吃。   
+Have you eaten?    
+I don't want to eat anything.    
+
+现在谁和你在一起？    
+现在谁都不在这儿。    
+Who is with you now?  
+No one is here now.  
+  
+\  
+
+******      
+    
+## Examples   
+
+
+
+你喜欢什么水果？    
+我什么水果都喜欢。   
+What fruits do you like?  
+I like all kinds of fruit.  
+
+他很有名吗？  
+当然。谁都认识他。   
+Is he famous?  
+Of course. Everyone knows him.   
+
+你想去哪儿吃饭？  
+去哪儿都可以。    
+Where do you want to eat?  
+I can go anywhere.    
+
+******   
+
+你去过长城？          
+我刚到北京， 哪儿都没去过。     
+Have you been to the Great Wall.      
+I just arrived in Beijing, I haven't been anywhere.    
+
+咱们去打球吧。  
+我太累了。我什么也不想做。    
+Let's go play ball.  
+I am too tired. I don't want to do anything.  
+
+我们的新老师是谁？ 
+不知道。 谁也没见过他。   
+Who is our new teacher?  
+Don't know. No one has met him.    
+
+******  
+
+我什么都听不懂。   
+I don't understand anything.  
+
+我谁也不认识。  
+I don't know anyone.  
+
+我什么都爱吃。  
+I like to eat everything.  
+
+
+\  
+
+******      
+  
+## Quiz  
+
+Choose the correct meaning of the bold part.    
+
+1.  
+刚 来 的 时候， **我  什么  都 不 会   说。**    
+我 一点儿 也 不 会  说。      
+
+2.  
+他 又   聪明   又  热情，**谁 都  喜欢 他。**  
+每个人都喜欢他。  
+
+3.  
+我 没 戴  眼镜，**什么  也 看不见。**  
+所有  的 东西 我  都  看不见。  
+
+
+4.  
+周 末  的 时候， **商场   里 哪儿 都 是  人。**  
+商场  里 人 太 多 了。  
+
+5.  
+明天  我  一直 在家。**你  什么  时候 来 都 可以。**  
+
+任何  时候  你 都 可以 来。  
+
+Arrange the following words into a sentence.  
+
+6.  
+我什么都没吃  
+
+7.  
+谁都看过这本书    
+
+8.  
+他哪儿都去过  
+
+9.  
+我什么也没听见             
+
+10.  
+我怎么找也找不到  
+

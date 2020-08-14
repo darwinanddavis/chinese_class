@@ -69,7 +69,7 @@ vignette: >
 
 \newpage   
 
-Date: 2020-08-11  
+Date: 2020-08-14  
 R version: 3.5.0   
 *Corresponding author: matthew.malishev@gmail.com  
 This document can be found at https://moocs.unipus.cn/my/course/373  
@@ -94,18 +94,13 @@ locale:
 attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
-other attached packages:
-[1] dplyr_1.0.0
-
 loaded via a namespace (and not attached):
- [1] rstudioapi_0.11      knitr_1.28           magrittr_1.5         tidyselect_1.1.0    
- [5] R6_2.4.1             rlang_0.4.6          stringr_1.4.0        tools_3.5.0         
- [9] xfun_0.14            tinytex_0.23         htmltools_0.4.0.9003 ellipsis_0.3.1      
-[13] yaml_2.2.1           digest_0.6.25        tibble_3.0.1         lifecycle_0.2.0     
-[17] crayon_1.3.4         purrr_0.3.4          base64enc_0.1-3      vctrs_0.3.1         
-[21] rsconnect_0.8.16     glue_1.4.1           evaluate_0.14        rmarkdown_2.2       
-[25] stringi_1.4.6        compiler_3.5.0       pillar_1.4.4         generics_0.0.2      
-[29] pkgconfig_2.0.3     
+ [1] crayon_1.3.4         digest_0.6.25        lifecycle_0.2.0      magrittr_1.5        
+ [5] evaluate_0.14        pillar_1.4.4         rlang_0.4.6          stringi_1.4.6       
+ [9] rstudioapi_0.11      vctrs_0.3.1          ellipsis_0.3.1       rmarkdown_2.2       
+[13] tools_3.5.0          stringr_1.4.0        tinytex_0.23         xfun_0.14           
+[17] yaml_2.2.1           rsconnect_0.8.16     compiler_3.5.0       pkgconfig_2.0.3     
+[21] base64enc_0.1-3      htmltools_0.4.0.9003 knitr_1.28           tibble_3.0.1        
 ```
 
 \newpage  

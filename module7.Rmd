@@ -66,11 +66,16 @@ Content for Lesson 7.2
 
 ## [`r paste0("Lesson ", params$lesson,".3")`](`r paste0('lesson',params$lesson,'_',3,'.html')`)   
 
-### 
+### Interrogative pronoun in a rhetorical question    
 
 ## [`r paste0("Lesson ", params$lesson,".4")`](`r paste0('lesson',params$lesson,'_',4,'.html')`)   
+  
+### "Using interrogative pronouns to express arbritrary reference"      
+Content for Lesson 7.4  
+都， 也  
+ 
 
-### 
+  
 
 
   

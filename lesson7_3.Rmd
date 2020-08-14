@@ -1,0 +1,180 @@
+---
+params:
+  lesson: "Lesson 7.3"
+  title: "Interrogative pronoun in a rhetorical question"            
+  link: "https://moocs.unipus.cn/course/373/task/27612/show"
+  content: ""  
+  date: !r Sys.Date()
+  email: matthew.malishev@gmail.com    
+  # end inputs ---------------------------------------------------------------
+header-includes: \usepackage{float}
+always_allow_html: yes
+output:
+  html_document 
+---
+
+```{r echo = FALSE}
+# library(rmarkdown)
+# setwd("")
+# f <- list.files()[1]
+# render(f, output_format='pdf_document')
+```
+
+```{r, set-options, echo = FALSE, cache = FALSE}
+options(width=100)
+knitr::opts_chunk$set(
+ eval = TRUE, # run all code
+ # echo = FALSE, # show code chunks in output 
+ comment = "",
+ tidy.opts=list(width.cutoff=100), # set width of code chunks in output
+ tidy=TRUE, # make output as tidy
+ message = FALSE,  # mask all messages
+ warning = FALSE, # mask all warnings 
+ size="small" # set code chunk size
+)
+
+# https://github.com/ucb-stat133/stat133-fall-2016/blob/master/hws/hw02-tables-ggplot.Rmd
+knitr::opts_knit$set(root.dir=paste0(params$dir,"/")) # set working dir
+
+setwd(paste0(params$dir,"/")) # for running just in R not knitr
+```
+
+\  
+
+\  
+
+\  
+
+\  
+
+# `r paste0(params$lesson,": ",params$title)`    
+\  
+
+Content for `r params$lesson`  
+`r params$content`      
+\  
+
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body -->  
+  
+## `r params$title`      
+
+Using interrogative pronouns (who, what, why) to express strong tones or emotions  
+Can be used to make a negative, questioning sentence, e.g.  
+
+- Who cares? 
+- Who knows?  
+- Why wouldn't I?  
+
+\  
+
+******      
+  
+## Test question        
+
+A: 今天是我的生日。你忘了吗？    
+B: 我怎么会忘吗？      
+Today is my birthday. Did you forget?      
+How could I forget?      
+
+\  
+
+******      
+    
+## Examples   
+
+A: 老板怎么了？
+B: 谁知道.     
+What happened to the boss?   
+Who knows.  
+谁知道 --> 不知道     
+
+我只有一块钱了。 我能买什么？    
+I only have 1 kuai. What can I buy?    
+我能买什么？--> 不能买    
+
+你只十岁。你怎么能喝酒呢？      
+You are just 10 years old. How can you drink alcohol?   
+你怎么能喝酒呢？--> 不能喝酒       
+
+中文的女人这么可爱，谁不喜欢？   
+Chinese women are so cute, who doesn't like them?  
+
+没错。我哪儿没去过？   
+Not wrong. Where have I not been?  
+
+你怎么会看不懂？    
+How can you not understand?  
+    
+我怎么知道呀？   
+How should I know?  
+    
+******    
+
+你喜欢看电影吗？    
+谁不喜欢看电影。    
+
+我看过所有的电影。     
+我什么电影没看过？  
+I have watched all the movies.    
+What movie have I not seen?   
+  
+当然看得懂。我怎么会看不懂?  
+Of course I understand. How could I not understand?  
+  
+\  
+
+******      
+  
+## Quiz  
+  
+1.  
+A：今天他 为什么   不 高兴？    
+我____知道？  
+怎么  
+
+2.  
+A：明天  你 不去  上海   出差  吗？     
+B：明天  是  周末。   
+_____想  出差  啊？  
+谁  
+
+3.  
+A:  广州    冬天   下 雪  吗？   
+B：广州    在  南方。 _____有 雪？  
+哪儿  
+
+4.  
+A：这个字 怎么读？ 
+B：老师   刚   教过，你_____不 知道？  
+怎么  
+
+5.  
+A：他 爱吃  这个 吗？   
+B：当然。他_____不 爱吃？  
+什么    
+
+Choose the correct meaning of the bold sentence.    
+
+6.  
+我  还是  学生， **我 哪 儿 有 这么 多 钱？**    
+我  没有   这么  多  钱。  
+
+7.  
+他 这么 有名，**谁 不 认识 他**  
+所有 人 都  认识 他。     
+
+8.  
+今天 放假 了，**公司里 哪儿 有 人？**  
+公司 里  没有  人。  
+
+9.  
+这么好的机会，**谁不想去**  
+每 个 人 都  想  去。    
+
+10.  
+他 是  新 来 的，**他  知道  什么？**      
+他 不 知道。   
+
