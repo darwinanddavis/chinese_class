@@ -63,6 +63,7 @@ Content for `r params$lesson`
 
 Preceding a verb with another verb   
 
+### S + （V1 + O） + directional verb + O   
 
 \  
 

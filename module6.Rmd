@@ -59,9 +59,11 @@ Date: `r params$date`
 
 ## [`r paste0("Lesson ", params$lesson,".2")`](lesson6_2.html)   
 
-### 把    
-Content for Lesson 6.2  
+### 把      
+Content for Lesson 6.2    
 把  
+Using 把 to express change in something/someone  
+S + 把 + A + V + 成 + B  
 
 ## [`r paste0("Lesson ", params$lesson,".3")`](lesson6_3.html)   
 

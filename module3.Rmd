@@ -60,11 +60,17 @@ Date: `r params$date`
 ## [`r paste0("Lesson ", params$lesson,".2")`](lesson3_2.html)   
 
 ### Comparative sentences I    
+Content for Lesson 3.2  
+比  
+N + 比 + N + ADJ  
 
 ## [`r paste0("Lesson ", params$lesson,".3")`](lesson3_3.html)   
 
 ### Comparative sentences II  
-#### Comparing precise quantity     
+#### Comparing precise quantity   
+Content for Lesson 3.3  
+比  
+N + 比 + N + ADJ + quantity/number  
 
 ## [`r paste0("Lesson ", params$lesson,".4")`](lesson3_4.html)   
 
