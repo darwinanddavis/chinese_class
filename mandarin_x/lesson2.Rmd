@@ -1,9 +1,9 @@
 ---
 params:
-  lesson: "Common measure words"   
-title: "Measure words"        
+  lesson: "Lesson 2"   
+title: "Mandarin X Intermediate Chinese"        
 link: "https://moocs.unipus.cn/course/373/task/27612/show"
-content: ""  
+content: "Intro and vocab"  
 email: matthew.malishev@gmail.com      
 # end inputs ---------------------------------------------------------------
 header-includes: \usepackage{float}
@@ -12,7 +12,7 @@ output:
   html_document
 ---
   
-```{r echo = FALSE}
+  ```{r echo = FALSE}
 # library(rmarkdown)
 # setwd("")
 # f <- list.files()[1]
@@ -60,31 +60,14 @@ Content for `r params$lesson`
   <!-- start body -->  
   
 ## `r params$title`      
+  
+特别 special    
+她特别高 She is exceptionally tall     
 
-<!-- Turn into df? -->
-<!-- ```{r} -->
-<!-- char <- c("一种颜色")    -->
-<!-- ``` -->
+酷 cool  
+她很酷  He's very cool  
 
-|汉语|英语|Definition|例|
-|:--:|:--:|:--:|:--:|
-|种 | zhong | type | 一种颜色  |   
-|件 | jian | clothes | 一件衣服 |    
-份 | fen | food? | 一份牛肉的 |    
-位|wei|  |一位先生 | 
-杯|bei|cup|一杯咖啡 |
-|||||  
-||||  
-||||  
-||||  
-||||  
-
-辆 measure word for cars  
-
-
-
-
-
+价钱 price  
 
 
   

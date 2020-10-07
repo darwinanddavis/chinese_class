@@ -1,9 +1,9 @@
 ---
 params:
-  lesson: "Common measure words"   
-title: "Measure words"        
+  lesson: "Lesson 3"   
+  content: "Grammar"  
+title: "Mandarin X Intermediate Chinese"        
 link: "https://moocs.unipus.cn/course/373/task/27612/show"
-content: ""  
 email: matthew.malishev@gmail.com      
 # end inputs ---------------------------------------------------------------
 header-includes: \usepackage{float}
@@ -12,7 +12,7 @@ output:
   html_document
 ---
   
-```{r echo = FALSE}
+  ```{r echo = FALSE}
 # library(rmarkdown)
 # setwd("")
 # f <- list.files()[1]
@@ -47,11 +47,10 @@ setwd(paste0(params$dir,"/")) # for running just in R not knitr
 \  
 
 
-# `r paste0(params$lesson,": ",params$title)`    
+# `r params$title`    
 \  
 
-Content for `r params$lesson`  
-`r params$content`      
+Content for `r params$lesson`: `r params$content`      
 \  
 
 <!-- ____________________________________________________________________________ -->
@@ -60,26 +59,40 @@ Content for `r params$lesson`
   <!-- start body -->  
   
 ## `r params$title`      
+  
+### 先 。。。 再 。。。  
+First ... then ...  
+你先吃，再付钱    
+\  
 
-<!-- Turn into df? -->
-<!-- ```{r} -->
-<!-- char <- c("一种颜色")    -->
-<!-- ``` -->
+### V + 不起  
+### V + 得起  
+Can't afford  
+Can afford    
+这碗牛肉面要五百块，我吃不起。     
+\  
 
-|汉语|英语|Definition|例|
-|:--:|:--:|:--:|:--:|
-|种 | zhong | type | 一种颜色  |   
-|件 | jian | clothes | 一件衣服 |    
-份 | fen | food? | 一份牛肉的 |    
-位|wei|  |一位先生 | 
-杯|bei|cup|一杯咖啡 |
-|||||  
-||||  
-||||  
-||||  
-||||  
+### 虽然。。。但是 / 可是    
+Even though/Although ... But       
 
-辆 measure word for cars  
+#### 虽然 。。。 但是  。。。  
+虽然他是美国人，但是他的中文很好。    
+Even though he is American, his Chinese is very good.   
+
+#### 虽然 。。。 可是  。。。  
+虽然现在是冬天，可是一点都不冷。    
+Although it is winter now, it is not cold.  
+\  
+
+### 如果。。。就。。。  
+If ... then ...  
+* 如果 can be placed before or after the subject  
+* 就 is an adverb  
+如果你周末有空，我们就一起去电影。  
+If you have time on the weeked, then let's go to the movies together.   
+  
+如果有钱，我们就可以去很多地方路行。   
+If we had money, then we could travel to a lot of places.   
 
 
 

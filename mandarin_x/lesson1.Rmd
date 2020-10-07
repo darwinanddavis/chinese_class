@@ -1,9 +1,9 @@
 ---
 params:
-  lesson: "Common measure words"   
-title: "Measure words"        
+  lesson: "Lesson 1"   
+title: "Mandarin X Intermediate Chinese"        
 link: "https://moocs.unipus.cn/course/373/task/27612/show"
-content: ""  
+content: "Intro and vocab"  
 email: matthew.malishev@gmail.com      
 # end inputs ---------------------------------------------------------------
 header-includes: \usepackage{float}
@@ -59,32 +59,39 @@ Content for `r params$lesson`
   <!-- ____________________________________________________________________________ -->
   <!-- start body -->  
   
-## `r params$title`      
+## `r params$title`        
 
-<!-- Turn into df? -->
-<!-- ```{r} -->
-<!-- char <- c("一种颜色")    -->
-<!-- ``` -->
 
-|汉语|英语|Definition|例|
-|:--:|:--:|:--:|:--:|
-|种 | zhong | type | 一种颜色  |   
-|件 | jian | clothes | 一件衣服 |    
-份 | fen | food? | 一份牛肉的 |    
-位|wei|  |一位先生 | 
-杯|bei|cup|一杯咖啡 |
-|||||  
-||||  
-||||  
-||||  
-||||  
+再  
+Another, then, again, once more     
 
-辆 measure word for cars  
+rewrite: 再写一次  
+repeat: 再讲一次      
+review: 再看一次  
 
 
 
 
+*****  
+
+木  
+火 huo  
+高 gao  
+如 ru guo 如果  
+没有  
+看 kan  
+贵 gui  
+忠 zhong loyal     
+心 heart   
+秋 qiu      
+刀 dollar    
+美元 US dollar    
+澳元 Aus dollar      
+热 heat/hot  
+热闹 lively/bustling  
+都 all/both    
+E.g. 他们都想去 Everybody wants to go      
 
 
 
-  
+
