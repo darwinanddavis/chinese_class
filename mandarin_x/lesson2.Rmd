@@ -2,7 +2,7 @@
 params:
   lesson: "Lesson 2"   
 title: "Mandarin X Intermediate Chinese"        
-link: "https://moocs.unipus.cn/course/373/task/27612/show"
+link: "https://learning.edx.org/course/"
 content: "Intro and vocab"  
 email: matthew.malishev@gmail.com      
 # end inputs ---------------------------------------------------------------
@@ -60,14 +60,90 @@ Content for `r params$lesson`
   <!-- start body -->  
   
 ## `r params$title`      
+
+### 决定   
+(decide + set/must/fix)  
+to decide/determine    
+我决定我要去上海念书。    
+I decided that I want go to Shanghai to study.    
   
-特别 special    
-她特别高 She is exceptionally tall     
+### 教书  
+to teach
+我想教她。    
+I wanted to teach her.  
 
-酷 cool  
-她很酷  He's very cool  
+### 课程    
+Class/course      
+我这个学期课程很多。    
+I have a lot of courses this semester.  
 
-价钱 price  
+### 恭喜  
+Congratulations  
+
+### 完美 
+(whole/finish  + beautiful)    
+Perfect  
+
+### 多大  
+how old / how large       
+你多大？    
+
+### 年纪  
+(year + record)   
+age      
+  
+### 当      
+to be / to become      
+我的妹妹从小就想当医生。      
+My sister has wanted to be a doctor since she was young.    
+
+### 又。。。又。。。  
+not only ... but also ... / both ... and ...    
+
+这个房子又贵又不干净，我不想租。   
+This house is both expensive and not clean, I don't want to rent it.    
+
+中国菜又便宜又好吃。    
+Chinese food is both cheap and delicious.   
+
+### 是。。。的。。。  
+Focus/contrast a part of a sentence (usually for past activities)      
+Object often used at the beginning of sentence  
+FOCUS = subject, time, place, manner, but never the object  
+S + 是 + **FOCUS** + ACTIVITY + 的    
+
+他是**昨天晚上**回家的。   
+It was **last night** that he came home.      
+
+这个手机超市买的。   
+It was at the supermarket that I bought this phone.  
+
+我是坐自行车来上课的。     
+I took a bicycle to come to class.    
+
+### 快。。。了。。。  
+about to ...    
+Indicates a change of state    
+
+快下雨了。    
+It's going to rain soon.  
+
+我的朋友快要回家了。   
+My friend is going home soon.  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
   

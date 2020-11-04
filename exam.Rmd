@@ -398,4 +398,4 @@ G
 J  
 
 
-![](img/exam.jpg)   
+<!-- ![](img/exam.jpg)    -->

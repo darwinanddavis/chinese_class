@@ -2,7 +2,7 @@
 params:
   lesson: "Lesson 1"   
 title: "Mandarin X Intermediate Chinese"        
-link: "https://moocs.unipus.cn/course/373/task/27612/show"
+link: "https://learning.edx.org/course/"
 content: "Intro and vocab"  
 email: matthew.malishev@gmail.com      
 # end inputs ---------------------------------------------------------------
@@ -69,7 +69,14 @@ rewrite: 再写一次
 repeat: 再讲一次      
 review: 再看一次  
 
+特别 special    
+她特别高 She is exceptionally tall     
 
+酷 cool  
+她很酷  He's very cool   
+好酷 So cool  
+
+价钱 price  
 
 
 *****  
@@ -91,6 +98,44 @@ review: 再看一次
 热闹 lively/bustling  
 都 all/both    
 E.g. 他们都想去 Everybody wants to go      
+
+
+  
+### 先 。。。 再 。。。  
+First ... then ...  
+你先吃，再付钱    
+\  
+
+### V + 不起  
+### V + 得起  
+Can't afford  
+Can afford    
+这碗牛肉面要五百块，我吃不起。     
+\  
+
+### 虽然。。。但是 / 可是    
+Even though/Although ... But       
+
+#### 虽然 。。。 但是  。。。  
+虽然他是美国人，但是他的中文很好。    
+Even though he is American, his Chinese is very good.   
+
+#### 虽然 。。。 可是  。。。  
+虽然现在是冬天，可是一点都不冷。    
+Although it is winter now, it is not cold.  
+\  
+
+### 如果。。。就。。。  
+If ... then ...  
+* 如果 can be placed before or after the subject  
+* 就 is an adverb  
+如果你周末有空，我们就一起去电影。  
+If you have time on the weeked, then let's go to the movies together.   
+  
+如果有钱，我们就可以去很多地方路行。   
+If we had money, then we could travel to a lot of places.   
+
+
 
 
 
