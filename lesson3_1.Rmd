@@ -87,8 +87,8 @@ I am 34. David is also 34.
 I am as old as David.    
 
 
-我喜欢打网球。 大卫也喜欢大王秀。  
-我跟大卫一样也喜欢打网球。  
+我喜欢打网球。 大卫也喜欢打网球。
+我跟大卫一样也喜欢打网球。    
 I also like tennis like David.  
 
 大卫的爱好跟我一样    
@@ -107,10 +107,12 @@ Unlike me, David studies Chinese in China.
 
 上海今天三十五度，跟北京一样热。    
 但是上海的天气跟北京不一样。上海常常下雨。  
-It's 35 degrees in Shanghai today. But the weather in Shanghai is different to Beijing. It often rains in Shanghai.  
 
-我听说上海花跟北京话不一样。    
-放心吧。上海人跟北京人一样， 都会说中文。    
+It's 35 degrees in Shanghai today, as hot as Beijing. But the weather in Shanghai is different to Beijing. It often rains in Shanghai.  
+
+我听说上海话跟北京话不一样。      
+放心吧。上海人跟北京人一样， 都会说中文。   
+
 I heard that Shanghai dialect is different from Beiling dialect.    
 Don't worry. Shanghai people and Beijing people both speak Chinese.  
 

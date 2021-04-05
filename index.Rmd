@@ -46,7 +46,8 @@ knitr::opts_chunk$set(
 ******    
 
 
-## [Advanced Chinese Grammar-Primary](https://moocs.unipus.cn/my/course/373)      
+## [Advanced Chinese Grammar-Primary](https://moocs.unipus.cn/my/course/373) 
+https://moocs.unipus.cn/cloud/search?q=Advanced+Chinese+Grammar&type=course  
 
 \newpage   
 
@@ -74,6 +75,13 @@ Date: `r params$date`
 *****  
 
 # Mandarin X Intermediate Chinese   
+
+*****  
+
+# Integrated Chinese Text - Level 1 Part 2  
+
+## [Lesson 11](integratedchinese/integratedchinese11.html) Weather    
+
 
 
 

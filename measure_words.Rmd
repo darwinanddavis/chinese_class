@@ -68,15 +68,15 @@ Content for `r params$lesson`
 
 |汉语|英语|Definition|例|
 |:--:|:--:|:--:|:--:|
-|种 | zhong | type | 一种颜色  |   
-|件 | jian | clothes | 一件衣服 |    
+种 | zhong | type | 一种颜色  |   
+件 | jian | clothes | 一件衣服 |    
 份 | fen | food? | 一份牛肉的 |    
 位|wei|  |一位先生 | 
 杯|bei|cup|一杯咖啡 |
-|||||  
-||||  
-||||  
-||||  
+部|bu4|movie|一部电影|    
+量词|liang4ci2|quantifier||  
+张|zhang1|flat objects - paper, table, ticket||    
+辆|liang4|vehicles||
 ||||  
 
 辆 measure word for cars  
