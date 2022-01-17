@@ -66,7 +66,40 @@ Not only ... but also ...
 不但不会下雪，而且会暖 和一点儿。   
 Not only will it not snow, but it will be a little warmer.    
 
+## Comparative sentences  
 
+### 比 。。。一点儿/得多/多了  
+A + 比 + B + ADJ + 一点儿/得多/多了    
+今天比昨天冷一点。  
+Today is a bit colder than yesterday.  
+
+明天比今天冷得多。   
+Tomorrow will be much colder than today.  
+
+纽约比这儿冷多了。  
+New York is much colder than here.  
+* Note the modifying expression is placed after the ADJ    
+
+### 比。。。更/还 + ADJ  
+A + 比 + B + 更/还 + ADJ   
+昨天冷。 今天比昨天更冷。（更）      
+昨天冷。 今天比昨天还冷。（还）      
+Yesterday was cold. Today is even colder than yesterday.    
+
+### Grammar  
+天气预报 forecast   
+
+### Examples  
+天气预报说北京明天会下雪。  
+The weather forecast says it will snow tomorrow in Beijing.  
+
+昨天纽约不下雨了。    
+It didn't rain in NY yesterday ??  
+
+我觉得北京跟上海一样冷。  
+不，上海比北京热多了。  
+I think Beijing is as cold as Shanghai.  
+No, Shanghai is much hotter than Beijing.  
 
 
 

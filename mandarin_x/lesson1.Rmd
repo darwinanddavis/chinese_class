@@ -62,26 +62,12 @@ Content for `r params$lesson`
 ## `r params$title`        
 
 
-再  
-Another, then, again, once more     
-
-rewrite: 再写一次  
-repeat: 再讲一次      
-review: 再看一次  
-
-特别 special    
-她特别高 She is exceptionally tall     
-
-酷 cool  
-她很酷  He's very cool   
-好酷 So cool  
-
-价钱 price  
-
-
 *****  
 
-木  
+先 xian   
+再 zai    
+讲 speak/talk about    
+木    
 火 huo  
 高 gao  
 如 ru guo 如果  
@@ -97,9 +83,34 @@ review: 再看一次
 热 heat/hot  
 热闹 lively/bustling  
 都 all/both    
-E.g. 他们都想去 Everybody wants to go      
 
+### 特别 special    
+她特别高 She is exceptionally tall     
 
+### 酷 cool  
+她很酷  He's very cool   
+好酷 So cool  
+
+### 价钱   
+price  
+
+### 先 
+xian = first  
+今天，我们要先讲中国历史。 
+Today, we are first going to talk about Chinese history. 
+
+### 再  
+zai = again/another/then/once more    
+Similar to 're' in English  
+* rewrite  再写一次  
+* repeat 再讲一次  
+* review 再看一次  
+  
+### 都   
+dou = all/both    
+他们都想去 Everybody wants to go    
+我们两个都喜欢狗 We both like dogs    
+他们都想去 We all want to go    
   
 ### 先 。。。 再 。。。  
 First ... then ...  
