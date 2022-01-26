@@ -60,6 +60,60 @@ Content for `r params$lesson`: `r params$content`
   
 ## `r params$title`      
 
+### Glossary   
+
+日常 daily/everyday  
+不错 not bad/decent     
+�号吗 number （mark/sign + number)         
+
+### 用品  
+goods/products  
+生活用品 household products  
+日用品 basic necessities  
+
+### 差不多 
+About the same / almost (difference + not + many/much)     
+北京的天气和上海的天气差不多  
+Beijing and Shanghai weather are almost the same  
+
+### 对。。。来说   
+As far as ... is concerned    
+* Applies only to object of 对    
+对我来说， 这个早餐好吃。   
+For me, this breakfast is delicious   
+
+### 约    
+Make an appointment   
+我们约三点好吗？    
+Let's meet at 3, OK?    
+
+###  试 to try    
+试试 + VERB (trying an action)    
+试试看看 
+Try (to eat and see) a bit      
+
+### 原来如此  
+Originally/former + so/like this/like that   
+So that explains it      
+
+## Direction/facing    
+### 碰面   
+Meet/bump into (bump into + face/side/surface)          
+今天我跟Matt碰面   
+I ran into Matt today   
+
+### 对面  
+In front of/across from    
+我住在公园的对面  
+I live across from the park  
+
+
+
+
+
+
+
+
 
 
   

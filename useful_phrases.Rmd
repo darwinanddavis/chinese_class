@@ -53,10 +53,19 @@ setwd(paste0(params$dir,"/")) # for running just in R not knitr
   <!-- start body -->  
   
 ## `r params$title`          
-  
-** = double check    
-  
+
+Search for already used glossary terms within dir:     
+```{shell}
+mdfind -onlyin "$PWD" -live "差不多"  
+```
 \  
+
+## TO DO  
+Distinguish the following:  
+这/过 etc   
+左/佐 etc （zuo）
+
+** = double check     
 
 ## Lesson 1.1 
 
@@ -496,7 +505,8 @@ He speaks Chinese rather well
 今天比较热   
 Today is hotter  
 在我们家妈妈比较会做饭  
-In my family, my mother cooks better  
+In my family, my mother cooks better      
+   
 
 ### 差不多  
 almost the same (ADJ)      
