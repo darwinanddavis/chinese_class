@@ -1,10 +1,10 @@
 ---
-Title: "Chinese class"    
+Title: "Module 1"    
 header-includes: \usepackage{float}
 always_allow_html: yes
 params: 
-  lesson: "Index"
-  title: "Mandarin Blueprint" 
+  title: "Module 1"
+  lesson: "Module 1"
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com 
   github: https://github.com/darwinanddavis/chinese_class   
@@ -39,12 +39,31 @@ knitr::opts_chunk$set(
 
 ```
 
-# Mandarin Blueprint  
+# `r params$title`  
 
-## [Tones](mandarin_blueprint_tones.html)         
+\  
 
-   
+******    
 
+
+\newpage   
+
+Date: `r params$date`  
+*Corresponding author: `r params$email`     
+
+  
+
+## [Lesson 1.1](lesson1_1.html)    
+
+### Using 想 and 要  
+
+## [Lesson 1.2](lesson1_2.html)    
+
+### Auxiliary verbs 能，会，可以  
+
+## [Lesson 1.3](lesson1_3.html)    
+
+### Approximate numbers  
 
 
 

@@ -4,7 +4,7 @@ header-includes: \usepackage{float}
 always_allow_html: yes
 params: 
   lesson: "Index"
-  title: "Mandarin Blueprint" 
+  title: "Integrated Chinese" 
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com 
   github: https://github.com/darwinanddavis/chinese_class   
@@ -39,11 +39,11 @@ knitr::opts_chunk$set(
 
 ```
 
-# Mandarin Blueprint  
+# Integrated Chinese Text   
 
-## [Tones](mandarin_blueprint_tones.html)         
+## Level 1 Part 2
 
-   
+## [Lesson 11](integratedchinese11.html) Weather      
 
 
 

@@ -54,7 +54,7 @@ Date: `r params$date`
 *Corresponding author: `r params$email`  
 [Github link](`r params$github`)       
 
-## [Module 1](module1.html)  
+## [Module 1](module1/module1.html)  
 
 ## [Module 2](module2.html)  
 
@@ -77,11 +77,11 @@ Date: `r params$date`
 
 *****  
 
-# [Integrated Chinese Text](integratedchinese/index.html)  
+# [Integrated Chinese Text](integratedchinese/integratedchinese.html)  
 
 *****  
 
-# [Mandarin Blueprint](mandarin_blueprint/index.html)     
+# [Mandarin Blueprint](mandarin_blueprint/mandarin_blueprint.html)     
 
 
 

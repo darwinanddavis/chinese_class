@@ -3,7 +3,7 @@ Title: "Chinese class"
 header-includes: \usepackage{float}
 always_allow_html: yes
 params: 
-  lesson: "Index"
+  lesson: "Mandarin Blueprint"
   title: "Mandarin Blueprint" 
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com 
