@@ -79,8 +79,13 @@ Date: `r params$date`
 
 # Integrated Chinese Text - Level 1 Part 2  
 
-## [Lesson 11](integratedchinese/integratedchinese11.html) Weather    
+## [Lesson 11](integratedchinese/integratedchinese11.html) Weather      
 
+*****  
+
+# Mandarin Blueprint
+
+## [Tones](mandarin_blueprint/mandarin_blueprint_tones.html)       
 
 
 
