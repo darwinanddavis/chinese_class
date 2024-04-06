@@ -41,7 +41,7 @@ knitr::opts_chunk$set(
 
 # Mandarin Blueprint  
 
-## [Tones](mandarin_blueprint/mandarin_blueprint_tones.html)         
+## [Tones](mandarin_blueprint_tones.html)         
 
    
 
