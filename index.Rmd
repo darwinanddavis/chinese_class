@@ -68,7 +68,7 @@ Date: `r params$date`
 
 ## [Module 7](module7.html)      
 
-## [Exam]()  
+## [Exam](exam.html)  
 
 
 *****  
