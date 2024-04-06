@@ -155,35 +155,63 @@ Characters attaxhed to ends of words or compounds to give different meaning
 
 ###  儿    
 Makes word more casual  
-
+那儿 where    
+玩儿 to have fun    
+\  
 
 ### 子    
+Makes nouns     
+鞋子 shoes  
+骗 -> 骗子 to cheat -> cheater     
+\  
 
+### 头      
+Makes nouns  （fifth tone）  
+舌头 tongue  
+骨头 bone in body  
+尽头 end of something, typically directions    
+\    
 
-### 头    
-
-
-### 们  
-
+### 们    
+Plural for humans  
+我们  we  
+朋友们  friends  
+孩子们 children    
+邻居们 neighbours    
+\  
 
 ### 家      
-
+Indicates expert in field  
+艺术 -> 艺术家 art -> artist      
+作家 writer  
+科学家 scientist  
+\  
 
 ### 性    
-
+Adds ~iety, ~ness, ~ism, ~ship, or ~ence to create nouns  
+可能 -> 可能性 possible -> possibility    
+真实 -> 真实性 validity -> valiidity      
+\  
 
 ### 化  
-
+Adds ~ize or ~ify to create nouns     
+进 -> 进化 move forward or enter -> evolve     
+简单 -> 简单化 simple -> to simplify      
+\  
 
 ### 学      
+Adds ~istory or ~ology to create nouns   
+社会 -> 社会学 society -> sociology    
+  
+******  
 
-
-
-
-
-
-
-那儿  
+## Subject predicate examples      
+\        
+  
+地震 (ground + vibrate) = earthquake  
+年轻 (year + light) = young      
+眼熟 (eyes + familiar) = familiar looking   
+  
 
 
 
