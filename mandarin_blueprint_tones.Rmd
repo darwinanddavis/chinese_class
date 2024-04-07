@@ -2,7 +2,7 @@
 params:
   lesson: "Tones"
   title: Tones and pronounciation    
-  link: "https://www.youtube.com/watch?v=FlaJ12tmtu4"
+  link: "https://www.youtube.com/watch?v=FlaJ12tmtu4 | https://www.youtube.com/watch?v=7WkW1FF7KMQ"
   content: "Tones, tongue position"  
   date: !r Sys.Date()
   email: matthew.malishev@gmail.com    

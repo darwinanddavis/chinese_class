@@ -11,6 +11,40 @@ always_allow_html: yes
 output:
   html_document  
 ---
+
+<!-- JS for searching page for string queries   -->
+
+# Searchable HTML Output
+
+Enter your search query:
+
+<input type="text" id="searchQuery" placeholder="Type here">
+
+<button onclick="searchText()">Search</button>
+
+<script>
+function searchText() {
+  var query = document.getElementById('searchQuery').value;
+  var content = document.body.innerHTML;
+  var regex = new RegExp(query, 'g');
+  var match;
+  var matches = [];
+
+  while ((match = regex.exec(content)) !== null) {
+    matches.push(match.index);
+  }
+
+  if (matches.length > 0) {
+    var message = 'Found ' + matches.length + ' matches. Click OK to view.';
+    alert(message);
+  } else {
+    alert('No matches found.');
+  }
+}
+</script>
+
+<!-- ****** -->
+
   
 ```{r echo = FALSE}
 # library(rmarkdown)
@@ -66,6 +100,86 @@ Distinguish the following:
 左/佐 etc （zuo）
 
 ** = double check     
+
+******  
+\    
+
+## Essentials    
+
+我可以  
+I can  
+
+我知道 / 认识  
+I know information or facts / I'm familiar with people or recognizing things  
+
+我明白  
+I see  
+
+我记得  
+I remember  
+
+我同意  
+I agree  
+
+我会的  
+I will  
+
+我忘了  
+I forget  
+
+我保证  
+I promise  
+  
+
+```{r, echo = F, eval = T, warning=F}
+# what,where,who etc examples converted to html table 
+library(knitr)
+library(dplyr)
+library(readr)
+
+# Input text
+txt <- "/Users/malishev/Documents/chinese/mooc/chinese_mooc/essentials_table_text.txt" %>%
+  read_lines() %>% 
+  stringr::str_trim(side = "both") %>% 
+  matrix(ncol = 5, byrow = T) %>% 
+  as.data.frame %>% 
+  setNames(c("English", "Mandarin", "Example", "Translation","")) %>% 
+  kable() 
+txt
+```
+
+
+******   
+\  
+
+## Time    
+
+一周一次 once a week   
+The longer time period goes first   
+
+Deng wo dao  
+等我到 (了) ...   
+When I get to (there) ...    
+
+Puerto Rico de shihou    
+Puerto Rico的时候  
+In Puerto Rico   
+  
+第一，第二  
+Di yi, di er  
+First, second   
+
+那只好下次了
+That will have to happen next time 
+
+沒空吗？
+Are you not free / are you available? 
+
+We're （about to） arrive 
+我们（马上）到了
+
+******  
+\  
 
 ## Lesson 1.1 
 

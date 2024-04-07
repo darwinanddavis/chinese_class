@@ -13,46 +13,41 @@
 
 <title>Useful phrases and notes</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 
 
@@ -62,10 +57,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -82,40 +73,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -143,7 +110,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -155,7 +122,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -165,11 +132,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -181,13 +165,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -195,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -307,7 +283,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -321,7 +297,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -371,7 +347,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -380,12 +356,43 @@ div.tocify {
 </div>
 
 
+<!-- JS for searching page for string queries   -->
+<div id="searchable-html-output" class="section level1">
+<h1>Searchable HTML Output</h1>
+<p>Enter your search query:</p>
+<p><input type="text" id="searchQuery" placeholder="Type here"></p>
+<button onclick="searchText()">
+Search
+</button>
+<script>
+function searchText() {
+  var query = document.getElementById('searchQuery').value;
+  var content = document.body.innerHTML;
+  var regex = new RegExp(query, 'g');
+  var match;
+  var matches = [];
+
+  while ((match = regex.exec(content)) !== null) {
+    matches.push(match.index);
+  }
+
+  if (matches.length > 0) {
+    var message = 'Found ' + matches.length + ' matches. Click OK to view.';
+    alert(message);
+  } else {
+    alert('No matches found.');
+  }
+}
+</script>
+<!-- ****** -->
 <p> </p>
 <p> </p>
 <p> </p>
 <p> </p>
 <!-- ____________________________________________________________________________ -->
-<p><!-- ____________________________________________________________________________ --> <!-- ____________________________________________________________________________ --> <!-- start body --></p>
+<p><!-- ____________________________________________________________________________ -->
+<!-- ____________________________________________________________________________ -->
+<!-- start body --></p>
 <div id="section" class="section level2">
 <h2></h2>
 <p>Search for already used glossary terms within dir:</p>
@@ -398,11 +405,130 @@ div.tocify {
 这/过 etc<br />
 左/佐 etc （zuo）</p>
 <p>** = double check</p>
+<hr />
+<p> </p>
+</div>
+<div id="essentials" class="section level2">
+<h2>Essentials</h2>
+<p>我可以<br />
+I can</p>
+<p>我知道 / 认识<br />
+I know information or facts / I’m familiar with people or recognizing
+things</p>
+<p>我明白<br />
+I see</p>
+<p>我记得<br />
+I remember</p>
+<p>我同意<br />
+I agree</p>
+<p>我会的<br />
+I will</p>
+<p>我忘了<br />
+I forget</p>
+<p>我保证<br />
+I promise</p>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="20%" />
+<col width="24%" />
+<col width="40%" />
+<col width="4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">English</th>
+<th align="left">Mandarin</th>
+<th align="left">Example</th>
+<th align="left">Translation</th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">What</td>
+<td align="left">什么</td>
+<td align="left">你想说什么？</td>
+<td align="left">What do you want to say?</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">When</td>
+<td align="left">什么时候</td>
+<td align="left">你什么时候回家？</td>
+<td align="left">When will you go back home?</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Who</td>
+<td align="left">谁</td>
+<td align="left">这个谁吗？</td>
+<td align="left">Who is this?</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Why?</td>
+<td align="left">为什么</td>
+<td align="left">他为什么这么做？</td>
+<td align="left">Why did he do it?</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">How</td>
+<td align="left">怎么</td>
+<td align="left">你是怎么过来的？</td>
+<td align="left">How did you get here?</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Here</td>
+<td align="left">这里</td>
+<td align="left">这里太热了</td>
+<td align="left">It’s too hot here</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Where</td>
+<td align="left">那里/那儿</td>
+<td align="left">你去那儿？</td>
+<td align="left">Where are you going?</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">There</td>
+<td align="left">在那里/在那儿</td>
+<td align="left">就在那里</td>
+<td align="left">There it is</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p> </p>
+</div>
+<div id="time" class="section level2">
+<h2>Time</h2>
+<p>一周一次 once a week<br />
+The longer time period goes first</p>
+<p>Deng wo dao<br />
+等我到 (了) …<br />
+When I get to (there) …</p>
+<p>Puerto Rico de shihou<br />
+Puerto Rico的时候<br />
+In Puerto Rico</p>
+<p>第一，第二<br />
+Di yi, di er<br />
+First, second</p>
+<p>那只好下次了 That will have to happen next time</p>
+<p>沒空吗？ Are you not free / are you available?</p>
+<p>We’re （about to） arrive 我们（马上）到了</p>
+<hr />
+<p> </p>
 </div>
 <div id="lesson-1.1" class="section level2">
 <h2>Lesson 1.1</h2>
 <p>我想当。。。<br />
-I want to be ...</p>
+I want to be …</p>
 <p>劳驾。<br />
 Excuse me.</p>
 </div>
@@ -437,13 +563,13 @@ Which is suitable?</p>
 <p>今天天气多好<br />
 How good is the weather today</p>
 <p>快走吧<br />
-Let's go</p>
+Let’s go</p>
 <hr />
 </div>
 <div id="lesson-2.4" class="section level2">
 <h2>Lesson 2.4</h2>
 <p>我正想 。。。(V1 (+ V2))<br />
-I was about to ...<br />
+I was about to …<br />
 E.g.<br />
 我正想去找他。</p>
 <p>一会儿 For a while<br />
@@ -455,18 +581,18 @@ E.g.<br />
 <div id="lesson-3.1" class="section level2">
 <h2>Lesson 3.1</h2>
 <p>放心吧<br />
-Don't worry</p>
+Don’t worry</p>
 <p>我听说 。。。<br />
 I heard 。。。</p>
 <p>我还没习惯。<br />
-I'm not used to it yet.</p>
+I’m not used to it yet.</p>
 <hr />
 </div>
 <div id="lesson-3.4" class="section level2">
 <h2>Lesson 3.4</h2>
 <p>一般<br />
 Average/general<br />
-e.g. 我做饭很一般。<br />
+e.g.  我做饭很一般。<br />
 My cooking is average.</p>
 <p>所以<br />
 Therefore</p>
@@ -478,8 +604,8 @@ Therefore</p>
 我自己<br />
 Yourself<br />
 Myself<br />
-e.g. 你自己去 。。。<br />
-Go by yourself...</p>
+e.g. 你自己去 。。。<br />
+Go by yourself…</p>
 <hr />
 </div>
 <div id="lesson-4.3" class="section level2">
@@ -487,7 +613,7 @@ Go by yourself...</p>
 <p>当然可以 Of course I can</p>
 <p>请你等我一会儿。<br />
 Please wait for me for a while.</p>
-<p>没时间 ... No time to ... e.g. 没时间做饭</p>
+<p>没时间 … No time to … e.g. 没时间做饭</p>
 <hr />
 </div>
 <div id="lesson-5.1" class="section level2">
@@ -512,7 +638,7 @@ Call back （on the phone)</p>
 <h2>Lesson 5.3</h2>
 <p>马上<br />
 immediately/right away<br />
-e.g. 我要马上回去.<br />
+e.g.  我要马上回去.<br />
 我可以马上过去。</p>
 <hr />
 </div>
@@ -530,17 +656,17 @@ e.g.<br />
 <div id="lesson-7.2" class="section level2">
 <h2>Lesson 7.2</h2>
 <p>你难道没看见吗？<br />
-Didn't you see it?</p>
+Didn’t you see it?</p>
 <p>你难道不知道。。。 吗？<br />
-Don't you know ... ?</p>
+Don’t you know … ?</p>
 <p>你难道不明白吗？<br />
-Don't you understand?</p>
+Don’t you understand?</p>
 <p>你难道忘了吗？<br />
 Did you forget?</p>
 <p>你难道没有吗？<br />
 Don‘t you have it?</p>
 <p>我不可能相信你.<br />
-I can't believe you.</p>
+I can’t believe you.</p>
 </div>
 <div id="lesson-7.3" class="section level2">
 <h2>Lesson 7.3</h2>
@@ -558,9 +684,9 @@ How do you pronounce this word?</p>
 <p>谁也没见过他。<br />
 No one has met him.</p>
 <p>我什么都听不懂。<br />
-I don't understand anything.</p>
+I don’t understand anything.</p>
 <p>我谁也不认识。<br />
-I don't know anyone.</p>
+I don’t know anyone.</p>
 <p>我什么都爱吃。<br />
 I like to eat everything.</p>
 </div>
@@ -576,7 +702,7 @@ I like to eat everything.</p>
 <p>餐馆儿 and 饭馆儿 = oral version</p>
 <p>划算 worthwhile/better deal<br />
 你买这个比较划算。<br />
-You should buy this because it's a better deal.</p>
+You should buy this because it’s a better deal.</p>
 <p>出门<br />
 to leave the house /go out</p>
 <p>出口<br />
@@ -620,6 +746,7 @@ to do/setup/manage</p>
 <p>约<br />
 make an appointment/approximately</p>
 </div>
+</div>
 <div id="cooking" class="section level1">
 <h1>Cooking</h1>
 <p>好香 = smells fragrant</p>
@@ -632,7 +759,7 @@ interesting / boring</p>
 <p>酷<br />
 cool</p>
 <p>对了，。。。<br />
-By the way, ...<br />
+By the way, …<br />
 对了，这好价格。</p>
 <p>欣赏 to appreciate</p>
 <p>像<br />
@@ -667,8 +794,8 @@ great/excellent</p>
 to plan</p>
 <p>什么 whatever<br />
 你吃什么，我就吃什么。<br />
-I'll eat whatever you eat.<br />
-你看什么电影， 我就看什么电影。 I'll watch whatever movie you watch.</p>
+I’ll eat whatever you eat.<br />
+你看什么电影， 我就看什么电影。 I’ll watch whatever movie you watch.</p>
 <p>精彩<br />
 brilliant/splendid</p>
 <p>难<br />
@@ -682,7 +809,7 @@ to measure</p>
 <p>已经<br />
 already<br />
 他们已经游了20分钟了<br />
-They've already been swimming for 20 mins</p>
+They’ve already been swimming for 20 mins</p>
 <p>比如说 for example</p>
 <p>认真 serious/earnest<br />
 你好认真。</p>
@@ -701,7 +828,7 @@ pronounciation<br />
 <p>了解<br />
 to understand</p>
 <p>没错<br />
-correct/that's right</p>
+correct/that’s right</p>
 <p>语法<br />
 grammar</p>
 <p>进步 to advance/progress<br />
@@ -742,7 +869,7 @@ We have almost the same life goals.</p>
 </div>
 <div id="对-来说" class="section level3">
 <h3>对 。。。 来说。。。</h3>
-<p>As far as ... is concerned ...<br />
+<p>As far as … is concerned …<br />
 - applied to the object of 对</p>
 <p>对我来说， 这家店的早饭又便宜又好吃<br />
 For me, the breakfast in this shop is also cheap and delicious</p>
@@ -751,9 +878,10 @@ For him, that place is too far.</p>
 </div>
 <div id="本来-后来" class="section level3">
 <h3>本来 。。。 后来 。。。</h3>
-<p>Originally/previously ... later/after ...<br />
+<p>Originally/previously … later/after …<br />
 本来我觉得他很奇怪，后来发现他是个好人。<br />
-At first I thought he was strange, but later I found out that he was a good person.<br />
+At first I thought he was strange, but later I found out that he was a
+good person.<br />
 本来我们要去Korea,后来决定去中国。<br />
 Originally we were going to Korea, but later decided to go to China.</p>
 </div>
@@ -766,11 +894,12 @@ You will do well in the exam tomorrow</p>
 Practice more. You will know how to speak Chinese.</p>
 </div>
 </div>
-<div id="time" class="section level1">
+<div id="time-1" class="section level1">
 <h1>Time</h1>
 <p>本来 originally<br />
 我本来想去派对， 但是我太累就没去了。<br />
-I orginally wanted to go to the party, but I was too tired and didn't go.</p>
+I orginally wanted to go to the party, but I was too tired and didn’t
+go.</p>
 <p>以后<br />
 after</p>
 <p>这么<br />
@@ -778,18 +907,18 @@ so<br />
 ??</p>
 <p>Time duration + 没。。。了<br />
 我一年没看电影了。<br />
-I haven't watched movies for one year.<br />
+I haven’t watched movies for one year.<br />
 他三个天没洗澡了。<br />
-He hasn't showered in three days<br />
+He hasn’t showered in three days<br />
 他一星期没给他的女朋友打电话了。<br />
-He hasn't called his girlfriend for a whole week.</p>
+He hasn’t called his girlfriend for a whole week.</p>
 <p>开始 start<br />
 他们11点10分开始游泳</p>
 </div>
 <div id="common-phrases" class="section level1">
 <h1>Common phrases</h1>
 <p>我是开玩笑的。<br />
-I'm just kidding.</p>
+I’m just kidding.</p>
 <p>妳是认真的吗？<br />
 Are you serious?</p>
 <hr />
@@ -812,7 +941,7 @@ Are you serious?</p>
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -830,7 +959,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -839,6 +968,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
