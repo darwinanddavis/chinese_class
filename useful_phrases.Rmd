@@ -129,6 +129,9 @@ I forget
 
 我保证  
 I promise  
+
+我明白  
+I understand    
   
 
 ```{r, echo = F, eval = T, warning=F}
